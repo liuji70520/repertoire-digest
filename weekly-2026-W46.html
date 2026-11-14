@@ -1,0 +1,302 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · weekly-2026-W46 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>weekly-2026-W46</span><span class="dot">/</span><span>窗口 2026-11-09 – 2026-11-15</span><span class="dot">/</span><span>期刊 11 · 预印本 6</span><span class="dot">/</span><span>Journals 11 · Preprints 6</span></div>
+<p class="lead">本周 2 期 · 17 条文献（期刊 11 / 预印本 6）。 / One week in 2 issues, 17 items.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">6</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>用成像式单细胞转录组在组织原位刻画浆细胞克隆性</h3>
+<p class="t-en">In situ profiling of plasma cell clonality with image-based single-cell transcriptomics</p>
+<div class="meta"><span>Nature Methods</span><span class="dot">/</span><span>2026-11-10</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>提出 BCR-MERFISH：把多重容错荧光原位杂交与转录组成像结合，用 V 基因使用情况判定浆细胞克隆性；在小鼠与人体组织中验证，并揭示肠道内浆细胞克隆的公共性与非均匀分布。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>这是原位组库的样板——液基/细胞学样本最缺的正是形态与克隆型在同一视野的对应；它给出一条不依赖解离、可在切片上判克隆的技术路线。</p></div></div>
+<div class="rows en-rows">
+<p>BCR-MERFISH combines multiplexed error-robust FISH with transcriptome imaging to call plasma-cell clonality from V-gene usage, validated in mouse and human tissue, revealing public clonotypes and non-uniform clone distribution in the gut.</p>
+<p class="why-en">A template for in-situ repertoire work: morphology and clonotype in the same field of view, without dissociation.</p>
+</div>
+<a class="link" href="https://doi.org/10.1038/s41592-026-03296-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1038/s41592-026-03296-3</a>
+</article>
+<article class="card">
+<div class="num">02</div>
+<h3>TCR 序列本身塑造 CD8⁺ T 细胞的分化偏向与克隆扩增</h3>
+<p class="t-en">Early fate bias and TCR sequence shape CD8+ T cell differentiation and expansion</p>
+<div class="meta"><span>J Exp Med</span><span class="dot">/</span><span>2026-11-11</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>LCMV 模型 scRNA 加 scTCR 追踪数百克隆；外周血克隆分布可代表淋巴器官，实现无创纵向追踪；记忆期克隆优势由早期中央记忆前体频率决定，而非早期扩增强度；跨个体找到同 CDR3 的趋同重组克隆。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>把克隆型与分化状态钉在一起：细胞数有限时，可以用克隆结构反推 T 细胞功能状态，而不是只数克隆数。</p></div></div>
+<div class="rows en-rows">
+<p>In LCMV infection, scRNA + scTCR tracked hundreds of clones; blood clonal composition mirrors lymphoid organs, enabling non-lethal longitudinal tracking; memory dominance follows early central-memory precursor frequency.</p>
+<p class="why-en">Ties clonotype to differentiation state, so clonal structure can infer T-cell functional state when cells are scarce.</p>
+</div>
+<a class="link" href="https://doi.org/10.1084/jem.20261099"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1084/jem.20261099</a>
+</article>
+<article class="card">
+<div class="num">03</div>
+<h3>HLA 约束的个体化 TCR 指标预测加强针后症状性感染</h3>
+<p class="t-en">Personalized HLA-aware TCR measure predicts the risk of symptomatic SARS-CoV-2 infection following booster vaccination</p>
+<div class="meta"><span>medRxiv</span><span class="dot">/</span><span>2026-11-12</span><span class="dot">/</span><span class="chip chip-p">预印本 Preprint</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>在 COV-BOOST 三针试验里，用 HLA 基因型 + TCRβ 库 + S 抗原 HLA 关联参考集估计「HLA 感知的 Spike 反应性 T 细胞广度」，广度越高症状性感染风险越低（HR 0.58），校正中和抗体与 IFN-γ 后仍成立。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>组库当临床读数的完整范本：HLA 分层 + TCR 指标 + 硬终点 + 校正既有免疫指标。我们做 MRD 或疗效监测的指标构建可直接借这套路径。</p></div></div>
+<div class="rows en-rows">
+<p>In the COV-BOOST trial, HLA-aware Spike-reactive T-cell breadth derived from HLA genotype + TCRbeta repertoire + an HLA-linked reference catalog predicted lower symptomatic infection risk (HR 0.58), robust to neutralizing antibody and IFN-gamma.</p>
+<p class="why-en">A complete blueprint for repertoire-as-readout: HLA stratification + TCR metric + hard endpoint.</p>
+</div>
+<a class="link" href="https://doi.org/10.64898/2026.11.10.26367219"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.64898/2026.11.10.26367219</a>
+</article>
+<article class="card">
+<div class="num">04</div>
+<h3>心肌梗死后 MHC 限制性抗原提呈与克隆性 T 细胞免疫：机制、证据缺口与治疗机会</h3>
+<p class="t-en">MHC-restricted antigen presentation and clonal T-cell immunity after myocardial infarction: mechanisms, evidence gaps, and therapeutic opportunities</p>
+<div class="meta"><span>Molecular Biology Reports</span><span class="dot">/</span><span>2026-11-12</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 2.8</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q3</span><span class="chip chip-cas" title="中科院分区（第三方数据快照）">中科院 4区</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>叙述性综述：把梗死后的抗原获取、心脏引流淋巴结内的 T 细胞致敏、以及损伤心肌内肽-MHC 识别串成一条线，并与 TCR 组库研究、按梗死核心/边缘带/远端心肌划分的空间框架对齐。作者明确把直接实验证据与人类组库相关性、其他疾病证据、假说分开陈述。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>一句话最有用：TCR 克隆扩增本身不能证明抗原特异性，心肌细胞提呈抗原也要与专职抗原提呈细胞分开看——这正是我们在液基样本里给克隆下结论时的红线，可直接借它的分层表述。</p></div></div>
+<div class="rows en-rows">
+<p>A narrative review linking antigen acquisition, T-cell priming in cardiac-draining lymph nodes and peptide-MHC recognition in injured myocardium, integrated with TCR repertoire studies and a spatial framework of infarct core, border zone and remote myocardium.</p>
+<p class="why-en">Its sharpest point is a caution we can reuse directly: clonal expansion alone does not establish antigen specificity.</p>
+</div>
+<a class="link" href="https://doi.org/10.1007/s11033-026-13173-z"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1007/s11033-026-13173-z</a>
+</article>
+<article class="card">
+<div class="num">05</div>
+<h3>系统性联合鞘内阿仑单抗治疗伴中枢受累的 T-PLL：TCR 克隆型 NGS 监测下持续 MRD 阴性</h3>
+<p class="t-en">Sustained MRD-Negative Complete Remission of T-PLL With CNS Involvement Following Treatment With Systemic and Intrathecal Alemtuzumab</p>
+<div class="meta"><span>EJHaem</span><span class="dot">/</span><span>2026-11-11</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 1.2</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q4</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>个案：T-PLL 伴脑膜受累，用鞘内阿仑单抗后桥接异基因造血干细胞移植；用二代测序追踪 TCR 克隆型做残留病监测，指导移植后干预，24 个月仍处持续分子学缓解。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>这是组库当 MRD 读数的落地版本——克隆型 NGS 不只测深度，还直接驱动了临床决策；病例虽小，但「监测指标 → 干预动作」的闭环值得照抄。</p></div></div>
+<div class="rows en-rows">
+<p>Case report: T-PLL with leptomeningeal involvement treated with intrathecal alemtuzumab followed by allo-HSCT, with TCR clonotype NGS used for residual-disease monitoring to guide post-transplant intervention; sustained molecular remission at 24 months.</p>
+<p class="why-en">A concrete instance of repertoire-as-MRD-readout, where clonotype tracking actually drives a clinical decision.</p>
+</div>
+<a class="link" href="https://doi.org/10.1002/jha2.70456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1002/jha2.70456</a>
+</article>
+<article class="card">
+<div class="num">06</div>
+<h3>重复暴露于保守抗原驱动克隆与表位的动态更替</h3>
+<p class="t-en">Repeated exposure to a conserved antigen drives dynamic clonal and epitope succession</p>
+<div class="meta"><span>bioRxiv</span><span class="dot">/</span><span>2026-11-13</span><span class="dot">/</span><span class="chip chip-p">预印本 Preprint</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>用 TIRTL-seq 在 38 名健康供者多轮 mRNA 疫苗接种的连续样本中取得配对 αβTCR（CD8⁺ 谱系），按纵向动力学锁定疫苗相关克隆，再把扩增克隆对应到具体表位，追踪克隆与表位的更替顺序。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>把「克隆扩增」接回「表位」是组库研究最难的一步；这套配对 TCR + 纵向设计，对我们的抗原特异性判读与疫苗免疫监测是直接可借的方法。</p></div></div>
+<div class="rows en-rows">
+<p>TIRTL-seq recovered paired alphabeta TCRs from CD8+ lineages in serial samples from 38 donors across repeated mRNA vaccinations, identifying vaccine-associated clonotypes by longitudinal kinetics and mapping them onto cognate epitopes.</p>
+<p class="why-en">Linking clonal expansion back to epitope identity is the hardest step in repertoire work; this paired-TCR design is directly reusable for antigen-specificity readouts.</p>
+</div>
+<a class="link" href="https://www.biorxiv.org/content/10.64898/2026.11.12.763997v1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://www.biorxiv.org/content/10.64898/2026.11.12.763997v1</a>
+</article>
+</section>
+<section class="sec"><h2>其他<span class="en">More</span><span class="n">11</span></h2><div class="sec-rule"></div>
+<div class="item"><div class="zh">SingleRepExplorer：单细胞转录组 + 免疫组库整合分析平台</div>
+<div class="en">SingleRepExplorer: a unified interactive platform for integrated single-cell transcriptomic and immune repertoire analysis</div>
+<div class="v">Front Immunol<span class="dot">/</span><a href="https://europepmc.org/article/PMC/PMC13752213">链接/Link</a></div>
+<div class="note">交互式一体化工具，适合快速看 scRNA + VDJ 联合结果。</div>
+</div>
+<div class="item"><div class="zh">IEDB 2026 版：免疫受体数据更新</div>
+<div class="en">The Immune Epitope Database (IEDB) in 2026: updates of immune receptor data</div>
+<div class="v">Nucleic Acids Res<span class="dot">/</span><a href="https://doi.org/10.1093/nar/gkag1120">链接/Link</a></div>
+<div class="note">收录约 23.5 万个 TCR 与数千条 BCR，是抗原特异性注释的底座。</div>
+</div>
+<div class="item"><div class="zh">不可切除 HCC 的外周免疫图谱与多组学建模</div>
+<div class="en">Comprehensive Immunoprofiling and Multi-Omics Modeling Reveal Key Immune Features Associated with Disease Progression and Clinical Outcomes in Patients with Unresectable Hepatocellular Carcinoma</div>
+<div class="v">Cancer Lett<span class="dot">/</span><a href="https://doi.org/10.1016/j.canlet.2026.218946">链接/Link</a></div>
+<div class="note">TCR-seq + 流式 + bulk RNA + 公共 scRNA，筛进展与预后相关特征。</div>
+</div>
+<div class="item"><div class="zh">川崎病：连接全身炎症与冠脉损伤的 CD8⁺ T 细胞特征</div>
+<div class="en">CD8⁺ T Cell Immune Signatures Bridging Systemic Inflammation and Coronary Artery Injury in Kawasaki Disease</div>
+<div class="v">Clin Rev Allergy Immunol<span class="dot">/</span><a href="https://doi.org/10.1007/s12016-026-09217-8">链接/Link</a></div>
+<div class="note">含 CD8 克隆扩增证据，免疫损伤机制梳理较清楚。</div>
+</div>
+<div class="item"><div class="zh">唐氏综合征：B 细胞教育失调导致自身免疫与免疫缺陷并存</div>
+<div class="en">Dysregulated B Cell Education Drives Autoimmunity and Immunodeficiency in Down Syndrome</div>
+<div class="v">medRxiv<span class="dot">/</span><a href="https://doi.org/10.64898/2026.11.11.26367301">链接/Link</a></div>
+<div class="note">淋巴结结构 + 外周 B 细胞，涉及 BCR 库选择与耐受建立。</div>
+</div>
+<div class="item"><div class="zh">HIV bnAb 前体成熟的 mRNA 疫苗 priming</div>
+<div class="en">HIV broadly neutralizing antibody precursor maturation induced by mRNA vaccination in nonhuman primates</div>
+<div class="v">bioRxiv<span class="dot">/</span><a href="https://doi.org/10.64898/2026.11.10.765717">链接/Link</a></div>
+<div class="note">从 naive B 库激活超罕见前体，属 BCR 库靶向的免疫原设计。</div>
+</div>
+<div class="item"><div class="zh">疱疹病毒特异性免疫应答改变与 long COVID 相关</div>
+<div class="en">Altered herpesvirus-specific immune response is associated with long COVID</div>
+<div class="v">medRxiv</div>
+<div class="note">今日新增预印本，T 细胞应答层面的关联证据。</div>
+</div>
+<div class="item"><div class="zh">HPV 疫苗后瘤内 CD8⁺ 分化与持久免疫</div>
+<div class="en">Intratumoral CD8⁺ T-cell differentiation is linked to durable HPV-specific immunity after neoadjuvant HPV vaccination with long-acting IL-7 and PD-1 blockade</div>
+<div class="v">Research Square<span class="dot">/</span><a href="https://doi.org/10.21203/rs.3.rs-11474333/v1">链接/Link</a></div>
+<div class="note">小鼠比较 PD-1 阻断、治疗性疫苗、长效 IL-7，关联瘤内克隆分化。</div>
+</div>
+<div class="item"><div class="zh">高度致敏肾移植候选者的处理标准</div>
+<div class="en">Treatment standard - the highly sensitized kidney transplant candidate</div>
+<div class="v">Nephrol Dial Transplant<span class="dot">/</span><a href="https://doi.org/10.1093/ndt/gfag258">链接/Link</a></div>
+<div class="note">综述，提及免疫组库与 HLA 抗体背景；与我们的组库分析关系较弱。</div>
+</div>
+<div class="item"><div class="zh">Kv1.3×CD25 双抗选择性抑制活化 T 细胞</div>
+<div class="en">Design of a Kv1.3×CD25 bispecific antibody to preferentially inhibit activated T cells and ameliorate T-cell-driven colitis</div>
+<div class="v">Eur J Pharmacol<span class="dot">/</span><a href="https://doi.org/10.1016/j.ejphar.2026.179529">链接/Link</a></div>
+<div class="note">把 Vm24 肽嫁接到 basiliximab 的 CDR3 上；仅为 CDR3 关键词误中，与组库无关。</div>
+</div>
+<div class="item"><div class="zh">抗原特异性 IgG 糖基化：从三级淋巴免疫到免疫治疗的液体标志物</div>
+<div class="en">Antigen-specific IgG glycosylation in cancer: From tertiary lymphoid immunity toward liquid biomarkers of immunotherapy</div>
+<div class="v">Clinica Chimica Acta<span class="dot">/</span>2026-11-13<span class="dot">/</span>IF 2.9 · JCR Q2 · 中科院 3区<span class="dot">/</span><a href="https://doi.org/10.1016/j.cca.2026.122970">链接/Link</a></div>
+<div class="note">综述；主张别再用 bulk IgG 糖型，而要抓「抗原特异性」那一部分，并把它和 TLS 内的 B 细胞成熟、ICI 应答连起来——思路与液基样本的抗体标志物很近，期刊影响力一般（IF≈1.6）。</div>
+</div>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>本期合并自 11-13、11-14 的日报；原始日报仍可单独访问。</li>
+<li>[11-13] 预印本源：bioRxiv / medRxiv 官方 API 不可达，改用其 RSS（connect.biorxiv.org）直连，可拿到摘要；同一 IP 偶发 Cloudflare 503，本轮 immunology / genomics / cancer-biology 被挡，隔日重跑会补上。</li>
+<li>[11-13] OpenAlex 仍 429；Tavily CLI 已安装但未登录（tvly login 后可作为通用检索兜底）。</li>
+<li>[11-13] 扫描器有保护：多源失败且结果过薄时不覆盖当天已有 digest。</li>
+<li>[11-14] 窗口 11-11 ~ 11-14，但 11-11 ~ 11-13 的绝大部分昨天已报过，今天真正新增只有 2 条期刊论文；预印本 0 条（bioRxiv/medRxiv RSS 今日无新命中）。</li>
+<li>[11-14] 抓取情况：Europe PMC adjacent 查询首次 SSL 中断、重试后恢复；OpenAlex 仍 429 限流。</li>
+<li>[11-14] 扫描器今天补了两条保护：当天 digest 只增不减（源失败不会把已抓到的条目冲掉）；未汇报条目跨天保留，下次仍会补发。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">17</span></h2><div class="sec-rule"></div>
+<details><summary>SingleRepExplorer: a unified interactive platform for integrated single-cell transcriptomic and immune repertoire analysis</summary><div class="src">Frontiers in immunology · 2026-11-12 · 期刊 Journal</div>
+<div class="ab"><a href="https://europepmc.org/article/PMC/PMC13752213">https://europepmc.org/article/PMC/PMC13752213</a></div>
+</details>
+<details><summary>In situ profiling of plasma cell clonality with image-based single-cell transcriptomics</summary><div class="src">Nature methods · 2026-11-10 · 期刊 Journal</div>
+<div class="ab">Image-based single-cell transcriptomics can identify diverse cell types in intact tissues. However, in adaptive immunity, V(D)J recombination generates unique immune receptors in cells of the same type, leading to important functional variation that is not yet defined by these methods. Here we introduce B cell receptor multiplexed error-robust fluorescence in situ hybridization (BCR-MERFISH), which measures plasma cell clonality based on V gene usage in combination with transcriptome profiling. We demonstrate that BCR-MERFISH accurately identifies V gene usage in cell culture and in mice with restricted or native plasma cell diversity. We then use BCR-MERFISH to elucidate the microbiota-dependent changes in plasma cell abundance, clonal diversity, and public clonotype usage in the mouse gut and the non-uniform distribution of plasma cell clones along the mouse ileum. Given that tissue context is an essential modulator of plasma cell dynamics, we anticipate that BCR-MERFISH may offer new insights into a wide range of immunological questions.</div>
+<div class="ab"><a href="https://doi.org/10.1038/s41592-026-03296-3">https://doi.org/10.1038/s41592-026-03296-3</a></div>
+</details>
+<details><summary>The Immune Epitope Database (IEDB) in 2026: updates of immune receptor data</summary><div class="src">Nucleic acids research · 2026-11-10 · 期刊 Journal</div>
+<div class="ab">The Immune Epitope Database (IEDB, iedb.org) is a freely available resource cataloging experimentally defined immune epitopes and, where reported, the immune receptors that recognize them. The IEDB currently records ∼235 000 distinct T cell receptors and ∼6400 distinct B cell receptors/antibodies with experimentally verified epitope specificity. Here, we describe recent updates to the IEDB, centered on a comprehensive revision of these receptor data. Because receptors were curated from 3879 references spanning decades, heterogeneity in gene nomenclature and CDR delimitation presents challenges for computational analyses and user queries. We rebuilt the standardization and validation pipeline to compute IUIS/IMGT-compliant V/D/J gene names and consistently delimited V domain, CDR1, 2, 3, and Junction sequences, and identify anomalous receptors from 822 references for re-curation. The IEDB web interface was expanded to include receptor search features directly on the homepage, support V/J gene and species options in the refined receptor search, and direct data export in the Adaptive Immune Receptor Repertoire (AIRR) format. We anticipate that the improved data quality will simplify bioinformatics analyses and facilitate integration into cross-repository data resources, such as the AIRR Knowledge Commons.</div>
+<div class="ab"><a href="https://doi.org/10.1093/nar/gkag1120">https://doi.org/10.1093/nar/gkag1120</a></div>
+</details>
+<details><summary>CD8⁺ T Cell Immune Signatures Bridging Systemic Inflammation and Coronary Artery Injury in Kawasaki Disease</summary><div class="src">Clinical reviews in allergy &amp; immunology · 2026-11-11 · 期刊 Journal</div>
+<div class="ab">Kawasaki disease (KD) is an acute onset, childhood systemic vasculitis with the most important complication being coronary artery injury with aneurysm formation. In the pathogenesis of KD, innate immune overactivation is well recognized, but the role of adaptive immunity in the progression of vascular lesions is not completely understood. A local lesion in the coronary artery is thought to connect to the systemic inflammatory reaction through CD8 + T cells. In this review, we discuss evidence from peripheral blood immunophenotyping, single cell transcriptomics, TCR clonal repertoire profiling, human coronary artery pathology and KD like animal models to delineate CD8⁺ T-cell signatures and their proposed pathogenic mechanisms. The circulating CD8 + T cells from acute-phase patients have decreased numbers, increased activation markers, skewed subset distribution, and co-existent proliferative and CTL and exhaustion phenotype transcription profiles in conjunction with TCR clonal expansion. CD8 + T cells appear to infiltrate the coronary arterial lesions in human autopsy samples and CD8 + T cells induce coronary arteritis in murine models. Interestingly, classical perforin-granzyme-mediated cytotoxicity of lesional CD8 + T cells is not confirmed in human KD, underscoring a crucial gap between peripheral omics signatures, data in animal models and evidence in human tissues. The in </div>
+<div class="ab"><a href="https://doi.org/10.1007/s12016-026-09217-8">https://doi.org/10.1007/s12016-026-09217-8</a></div>
+</details>
+<details><summary>Treatment standard - the highly sensitized kidney transplant candidate</summary><div class="src">Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association · 2026-11-10 · 期刊 Journal</div>
+<div class="ab">Highly sensitized kidney transplant candidates are exposed to prolonged dialysis time and limited access to transplantation despite significant advances in allocation. Conventional desensitization therapies have shown limited efficacy in reducing circulating HLA antibodies, most often being incomplete or transient, reflecting the persistence of humoral alloimmune memory. Long-lived plasma cells, memory B cells and their supporting T-cell networks represent key cellular reservoirs sustaining or rapidly restoring HLA antibodies. A deeper understanding of these cellular reservoirs is now driving a shift in desensitization strategies. Rather than relying solely on antibody removal or depletion of a single cell population, emerging approaches seek to disrupt humoral immunity at multiple, complementary levels. Rapid IgG degradation with imlifidase can overcome immediate antibody barriers, while CD38-targeted therapies and rational combinations targeting both peripheral memory B cells and bone marrow-resident long-lived plasma cells (LLPC) with distinct targeted therapies aim to remodel the underlying antibody-producing compartment. At the same time, immune-engineering approaches, including chimeric antigen receptor (CAR)-T cells and bispecific T cell engagers, are opening new possibilities for profound depletion of B-cell and plasma-cell populations. More radical strategies, such as </div>
+<div class="ab"><a href="https://doi.org/10.1093/ndt/gfag258">https://doi.org/10.1093/ndt/gfag258</a></div>
+</details>
+<details><summary>Comprehensive Immunoprofiling and Multi-Omics Modeling Reveal Key Immune Features Associated with Disease Progression and Clinical Outcomes in Patients with Unresectable Hepatocellular Carcinoma</summary><div class="src">Cancer letters · 2026-11-11 · 期刊 Journal</div>
+<div class="ab">Comprehensive profiling of peripheral immune cells has shown prognostic and disease-monitoring value across multiple cancers, but its clinical relevance in hepatocellular carcinoma (HCC), particularly unresectable HCC, remains insufficiently defined. To address this gap, we performed integrated peripheral immunoprofiling combining T-cell receptor (TCR) repertoire sequencing, flow cytometry-based T-cell phenotyping, bulk RNA sequencing, and public single-cell RNA-seq analysis in healthy donors, resectable HCC patients, and unresectable HCC patients. This design enabled characterization of HCC-associated and stage-associated peripheral immune alterations and identification of immunotherapy-relevant features in unresectable HCC. Single-cell analysis and flow cytometry revealed remodeling of circulating T-cell states in unresectable HCC, including reduced naïve-like compartments, enrichment of Treg-like cells, and increased memory/effector differentiation. TCR repertoire analysis showed reduced diversity, increased clonal dominance, altered V-J gene usage, decreased interindividual sharing, and convergent motif-level alterations, with early CD4 + TCR perturbations in resectable HCC and more pronounced CD8 + repertoire restriction in unresectable disease. Exploratory GLIPH-based motif analysis, HLA inference, and peptide-HLA binding prediction suggested candidate motif-HLA antigen a</div>
+<div class="ab"><a href="https://doi.org/10.1016/j.canlet.2026.218946">https://doi.org/10.1016/j.canlet.2026.218946</a></div>
+</details>
+<details><summary>Design of a Kv1.3×CD25 bispecific antibody to preferentially inhibit activated T cells and ameliorate T-cell-driven colitis</summary><div class="src">European journal of pharmacology · 2026-11-11 · 期刊 Journal</div>
+<div class="ab">Kv1.3 and CD25 regulate complementary aspects of T cell activation and expansion, and therefore are attractive targets for immunomodulation. Here, we designed and generated BsAb, an IgG-like bispecific antibody targeting Kv1.3 and CD25, by grafting a Kv1.3-blocking peptide Vm24 into the CDR3 of one heavy chain of the CD25 antagonist antibody basiliximab and incorporating a knob-into-hole Fc design for heterodimerization. BsAb retained the CD25 binding and anti-proliferative activities of basiliximab while obtaining Kv1.3 blocking functionality. In activated human T cells, BsAb showed enhanced cellular binding and stronger inhibition of T cell activation and proliferation than the mono-specific comparators. BsAb also preferentially bound CD25 hi Kv1.3 hi and T EM -like T cell populations. In a human T cell-driven DSS-induced mouse colitis model, BsAb demonstrated greater efficacy in reducing disease severity, colonic inflammation, and circulating human T cells than the mono-specific antibodies of Kv1.3 and CD25. These results support dual Kv1.3×CD25 targeting as a promising strategy for selective modulation of pathogenic T cell responses in inflammatory diseases.</div>
+<div class="ab"><a href="https://doi.org/10.1016/j.ejphar.2026.179529">https://doi.org/10.1016/j.ejphar.2026.179529</a></div>
+</details>
+<details><summary>Dysregulated B Cell Education Drives Autoimmunity and Immunodeficiency in Down Syndrome</summary><div class="src">medRxiv · 2026-11-11 · 预印本 Preprint</div>
+<div class="ab">Individuals with Down syndrome (DS) present with both increased rates of autoimmunity and immunodeficiency. To understand this paradox, we first examined lymph node (LN) architecture and immune cell composition in infants with and without DS, as well as peripheral blood B cells from unrelated adults with and without DS. Most strikingly, LNs from individuals with DS exhibited a marked paucity of germinal centers compared with typical lymph nodes. Stromal cells within DS LNs expressed significantly lower levels of the adhesion molecules ICAM1 and VCAM1, accompanied by significantly reduced CXCR5 expression within B cell follicles, suggesting impaired B cell migration and follicular organization. Although fibroblastic reticular cells (FRCs) were present at comparable frequencies in DS and control LNs, MARCO lymphatic endothelial cells (MARCO-LECs), another critical stromal cell population supporting LN architecture, were significantly reduced. In addition, follicular dendritic cells (FDCs), which are essential for antigen retention and B cell selection within germinal centers, were also substantially reduced. To determine the consequences of these abnormalities on humoral immunity, we performed paired single-cell RNA sequencing and V(D)J sequencing of peripheral blood B cells from adults with and without DS. DS memory and CD86⁺ switched memory B cell populations exhibited signific</div>
+<div class="ab"><a href="https://doi.org/10.64898/2026.11.11.26367301">https://doi.org/10.64898/2026.11.11.26367301</a></div>
+</details>
+<details><summary>Early fate bias and TCR sequence shape CD8+ T cell differentiation and expansion</summary><div class="src">The Journal of experimental medicine · 2026-11-11 · 期刊 Journal</div>
+<div class="ab">When a naive CD8+ T cell encounters an antigen, it proliferates into descendants with identical T cell receptors (TCRs), termed clones. Whether their differentiation toward effector or memory fates is stochastic or TCR-dependent has remained unclear, largely because the vast diversity of TCRs makes individual clones difficult to trace over time. Using single-cell RNA and TCR sequencing in acute LCMV Armstrong infection, we found that clonal distributions in blood reflect those in lymphoid organs, enabling nonlethal longitudinal tracking of clonal evolution. Tracing hundreds of clones, we found that memory clonal distribution is surprisingly uncoupled from early dominance; instead, early central memory precursor frequency predicts memory dominance. Leveraging convergent recombination, we identified clones with identical CDR3 amino acid sequences in mice and found that these natural biological replicates were more likely than chance to adopt similar fates, although substantial clone-to-clone variation remained. Applying the TCR distance algorithm, we further identified dominant motifs associated with enhanced expansion and effector-biased transcriptional programs, extending the TCR&#x27;s role in shaping clonal differentiation.</div>
+<div class="ab"><a href="https://doi.org/10.1084/jem.20261099">https://doi.org/10.1084/jem.20261099</a></div>
+</details>
+<details><summary>HIV broadly neutralizing antibody precursor maturation induced by mRNA vaccination in nonhuman primates</summary><div class="src">bioRxiv · 2026-11-11 · 预印本 Preprint</div>
+<div class="ab">The induction of broadly neutralizing antibodies (bnAbs) is a principal goal of prophylactic HIV vaccines. For many bnAbs, priming ultrarare precursors from the naive B cell repertoire is the first major immunological hurdle. Previous studies have shown that the germline-targeting (GT) priming immunogen N332-GT5 delivered as adjuvanted protein to non-human primates (NHPs) activates bnAb precursor B cells for the human bnAb BG18 targeting the V3-glycan supersite on the HIV envelope (Env) glycoprotein. Here, we engineered N332-GT6 to improve binding affinity to diverse BG18-class precursor naive B cells by 9-fold. mRNA-LNP vaccines expressing N332-GT5 or N332-GT6 as membrane-bound (gp151) trimers were evaluated for their ability to prime BG18-class precursor B cells in NHPs across three related studies. Although N332-GT5 gp151 mRNA-LNP priming induced BG18-class precursor B cells in most animals after two vaccinations, the higher-affinity N332-GT6 gp151 induced responses more consistently after only one immunization. Sequential vaccination with two heterologous mRNA-LNP booster immunizations drove affinity maturation and induced BG18-class memory B cells capable of binding wildtype HIV Env. Together, these findings demonstrate that mRNA immunization can achieve GT priming, boosting, and early maturation of ultrarare bnAb-class B cells in NHPs.</div>
+<div class="ab"><a href="https://doi.org/10.64898/2026.11.10.765717">https://doi.org/10.64898/2026.11.10.765717</a></div>
+</details>
+<details><summary>Altered herpesvirus-specific immune response is associated with long COVID</summary><div class="src">medRxiv · 2026-11-12 · 预印本 Preprint</div>
+<div class="ab">Long COVID is associated with persistent immune dysregulation, but whether immunity to latent viruses is also altered remains unclear. We profiled herpesvirus-specific antibodies and T-cell responses in people with long COVID and recovered convalescent controls at 4, 8, and 24 months after SAR-CoV-2 infection. Overall antibody reactivity and abundance against cytomegalovirus (CMV) and Epstein-Barr virus (EBV) responder frequencies and circulating B-cell subsets were broadly preserved, but early antibody avidity and virus-specific CD4 T cell response magnitude were reduced. Neither virus nucleic acid was detected in plasma or stool at 4 or 8 months. Here, we show that long COVID is associated with selective, time-dependent alteration of herpesvirus-specific immune memory, including relatively preserved or enhanced CD8 responses and greater representation of selected herpesvirus-associated T-cell receptor clonotypes. Together, these findings indicate altered herpesvirus-specific antibody quality despite broadly preserved antibody abundance. Lower EBV avidity was associated with poorer quality of life and unrecovered status.</div>
+<div class="ab"><a href="https://www.medrxiv.org/content/10.64898/2026.11.11.26367525v1">https://www.medrxiv.org/content/10.64898/2026.11.11.26367525v1</a></div>
+</details>
+<details><summary>Intratumoral CD8⁺ T-cell differentiation is linked to durable HPV-specific immunity after neoadjuvant HPV vaccination with long-acting IL-7 and PD-1 blockade</summary><div class="src">Research Square · 2026-11-12 · 预印本 Preprint</div>
+<div class="ab">Abstract Durable antigen-specific immunity is a goal of therapeutic vaccination, but its relationship to intratumoral CD8⁺ T-cell differentiation remains poorly defined. To address this question, we compared anti–PD-1, tirvalimogene teraplasmid (GX-188E), and long-acting IL-7 (GX-I7/NT-I7), alone and in combination, in HPV-positive tumor-bearing mice. Among tested regimens, triple immunotherapy produced the greatest tumor control and a pooled tumor profile enriched for stemness-associated intratumoral CD8⁺ states. We then evaluated the same components in a four-cohort phase 2 neoadjuvant study of 56 patients with resectable HPV-positive head and neck squamous cell carcinoma. In the 11-patient cohort receiving pembrolizumab, GX-188E, and NT-I7, 7 patients had a major pathologic response, including 4 with a pathologic complete response. To define the intratumoral immune program accompanying this activity, paired tumor profiling identified a GZMK⁺ effector-memory CD8⁺ state with cytotoxicity- and memory-associated features. GZMK⁺ effector-memory cells were prominent among T cells bearing clonotypes shared between post-treatment tumors and tumor-draining lymph nodes, consistent with intercompartmental recirculation. Higher tdLN Myc expression in both NT-I7-containing mouse profiles prompted regulatory analysis of the human GZMK⁺ state, revealing treatment-associated higher MYC and </div>
+<div class="ab"><a href="https://doi.org/10.21203/rs.3.rs-11474333/v1">https://doi.org/10.21203/rs.3.rs-11474333/v1</a></div>
+</details>
+<details><summary>Personalized HLA-aware TCR measure predicts the risk of symptomatic SARS-CoV-2 infection following booster vaccination</summary><div class="src">medRxiv · 2026-11-12 · 预印本 Preprint</div>
+<div class="ab">HLA-driven heterogeneity and limitations of live T cell functional assays routinely thwart assessment of cell-mediated immunity in vaccination trials. To address this, we developed a T-cell receptor (TCR)-based measure of immunogen recognition and evaluated it in COV-BOOST, a third-dose COVID-19 vaccine trial, during the Delta and Omicron waves (2021-2022, United Kingdom). We estimated HLA-aware Spike-reactive T cell (HA-TS) breadth from participant HLA genotypes, TCRβ repertoires, and a novel SARS-CoV-2 S HLA-linked reference catalog. Higher post-boost HA-TS breadth was associated with lower symptomatic infection risk (HR 0.58, 95% CI 0.39-0.86). This association persisted after adjustment for neutralizing antibody titers and IFN-γ responses. Examination of HA-TS across prior studies showed that it reflects participant genotype, exposure intensity, and time from exposure to sampling. These findings highlight the possibility that estimates of antigen-specific T cell repertoire breadth could serve as a correlate of protection to accelerate vaccine development.</div>
+<div class="ab"><a href="https://doi.org/10.64898/2026.11.10.26367219">https://doi.org/10.64898/2026.11.10.26367219</a></div>
+</details>
+<details><summary>MHC-restricted antigen presentation and clonal T-cell immunity after myocardial infarction: mechanisms, evidence gaps, and therapeutic opportunities</summary><div class="src">Molecular biology reports · 2026-11-12 · 期刊 Journal · IF 2.8 · JCR Q3 · 中科院 4区</div>
+<div class="ab">Myocardial infarction (MI) alters the cardiac immune microenvironment through tissue injury, antigen release, and recruitment of innate and adaptive immune cells. Major histocompatibility complex (MHC)-restricted antigen presentation can connect these events to T-cell responses that influence repair or persistent inflammation. This narrative review examines antigen acquisition, initial T-cell priming in cardiac-draining lymph nodes, and subsequent recognition of peptide-MHC complexes within injured myocardium. We integrate these processes with T-cell receptor (TCR) repertoire studies and a spatial framework encompassing the infarct core, border zone, and remote myocardium. Direct experimental evidence for cardiac antigen-specific responses is distinguished from human repertoire associations, findings in other diseases, and proposed mechanisms. In particular, TCR clonal expansion alone does not establish cardiac antigen specificity, and cardiomyocyte antigen display should be separated from professional antigen-presenting cell function. We also consider vascular and lymphatic remodeling, macrophage heterogeneity, and the effects of sex and age. Therapeutic approaches are evaluated by intervention, model, measured outcome, and evidence context, with particular attention to the cardiac risks of immune checkpoint blockade. This framework identifies the experiments needed to connect</div>
+<div class="ab"><a href="https://doi.org/10.1007/s11033-026-13173-z">https://doi.org/10.1007/s11033-026-13173-z</a></div>
+</details>
+<details><summary>Antigen-specific IgG glycosylation in cancer: From tertiary lymphoid immunity toward liquid biomarkers of immunotherapy</summary><div class="src">Clinica chimica acta; international journal of clinical chemistry · 2026-11-13 · 期刊 Journal · IF 2.9 · JCR Q2 · 中科院 3区</div>
+<div class="ab">Altered immunoglobulin G (IgG) glycosylation is increasingly investigated as a circulating cancer biomarker, but most studies profile bulk IgG and cannot determine whether the measured glycans belong to antibodies that recognize the tumor. In parallel, tertiary lymphoid structures (TLS) have emerged as intratumoral sites of B-cell maturation and tumor-reactive antibody production, with growing associations with immune-checkpoint inhibitor (ICI) response. Human cancer studies have documented antigen-bound antibody lectin phenotypes, but most do not establish glycan-bearing isotypes, Fab/Fc sites or molecular structures; endogenous, antigen-specific Fc glycopeptide evidence remains limited. Recent mechanistic work links B-cell N-glycosylation quality control to TLS biology, while antigen-capture mass-spectrometric workflows can quantify antigen-specific, subclass- and site-specific IgG Fc glycosylation. We propose a tumor-reactive IgG glyco-code operationally centered on antigen identity, IgG subclass, Fc glycan composition and temporal remodeling, interpreted together with antibody abundance, affinity/avidity and Fc-receptor context. The primary translational use case considered here is longitudinal monitoring during immunotherapy, rather than cancer diagnosis per se. Two links remain unproven: whether circulating antigen-specific IgG glycosylation reflects intratumoral TLS acti</div>
+<div class="ab"><a href="https://doi.org/10.1016/j.cca.2026.122970">https://doi.org/10.1016/j.cca.2026.122970</a></div>
+</details>
+<details><summary>Sustained MRD-Negative Complete Remission of T-PLL With CNS Involvement Following Treatment With Systemic and Intrathecal Alemtuzumab</summary><div class="src">EJHaem · 2026-11-11 · 期刊 Journal · IF 1.2 · JCR Q4</div>
+<div class="ab">Background T-cell prolymphocytic leukaemia (T-PLL) with central nervous system (CNS) involvement is uncommon and evidence guiding its treatment is limited. Case summary We describe the successful treatment of T-PLL with leptomeningeal involvement using intrathecal alemtuzumab followed by allogeneic haematopoietic stem cell transplantation. Residual disease monitoring of T-cell receptor clonotypes by next-generation sequencing was performed to assess treatment response and guide post-SCT intervention. At 24 months post-SCT, the patient remains in sustained molecular remission. Conclusion This case adds to the limited literature supporting activity of intrathecal alemtuzumab in refractory CNS disease and highlights the utility of molecular monitoring following SCT. Trial registration The authors have confirmed clinical trial registration is not needed for this submission.</div>
+<div class="ab"><a href="https://doi.org/10.1002/jha2.70456">https://doi.org/10.1002/jha2.70456</a></div>
+</details>
+<details><summary>Repeated exposure to a conserved antigen drives dynamic clonal and epitope succession</summary><div class="src">bioRxiv (immunology) · 2026-11-13 · 预印本 Preprint</div>
+<div class="ab">Defining the dynamics of T cell memory formation with epitope-level resolution can inform vaccine design. Longitudinal T cell receptor (TCR) sequencing after COVID-19 mRNA vaccination has enabled detailed tracking of T cell responses; however, connecting expanded clonotypes following antigen exposure to their cognate epitopes remains a challenge due to limited curated paired /{beta}TCR information. To fill this gap, we used TIRTL-seq to identify paired /{beta}TCRs from CD8+ T cell lineages associated with mRNA immunization in serial samples across 38 healthy donors over multiple rounds of vaccinations. Vaccine-associated paired /{beta}TCRs, identified based on their longitudinal kinetics, were grouped according to sequence similarity to infer their shared epitope specificities. We assigned epitope specificity to 1,109 clonotypes, recognizing 15 SARS-CoV-2 spike targets, identifying multiple previously undescribed responses, and confirming putative specificities experimentally. This approach uncovered a striking pattern of clonal succession in anti-spike T cell memory lineages resulting from repeated vaccination, characterized by a transition from low-avidity clones recognizing conserved coronavirus epitopes to high-avidity clones targeting epitopes unique to SARS-CoV-2. These results highlight the surprisingly dynamic responses underlying homologous boosting, suggest avenues fo</div>
+<div class="ab"><a href="https://www.biorxiv.org/content/10.64898/2026.11.12.763997v1">https://www.biorxiv.org/content/10.64898/2026.11.12.763997v1</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-14 21:25 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
