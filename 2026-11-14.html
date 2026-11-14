@@ -1,0 +1,127 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-14 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-14</span><span class="dot">/</span><span>窗口 2026-11-11 – 2026-11-14</span><span class="dot">/</span><span>期刊 2 · 预印本 0</span><span class="dot">/</span><span>Journals 2 · Preprints 0</span></div>
+<p class="lead">窗口很薄（真正新增只有 1 天），但两条都直指同一件事：克隆型该怎么读才不算过度解读。 / A thin window, but both items address one question: how far can a clonotype be read before over-interpretation.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>心肌梗死后 MHC 限制性抗原提呈与克隆性 T 细胞免疫：机制、证据缺口与治疗机会</h3>
+<p class="t-en">MHC-restricted antigen presentation and clonal T-cell immunity after myocardial infarction: mechanisms, evidence gaps, and therapeutic opportunities</p>
+<div class="meta"><span>Molecular Biology Reports</span><span class="dot">/</span><span>2026-11-12</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>叙述性综述：把梗死后的抗原获取、心脏引流淋巴结内的 T 细胞致敏、以及损伤心肌内肽-MHC 识别串成一条线，并与 TCR 组库研究、按梗死核心/边缘带/远端心肌划分的空间框架对齐。作者明确把直接实验证据与人类组库相关性、其他疾病证据、假说分开陈述。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>一句话最有用：TCR 克隆扩增本身不能证明抗原特异性，心肌细胞提呈抗原也要与专职抗原提呈细胞分开看——这正是我们在液基样本里给克隆下结论时的红线，可直接借它的分层表述。</p></div></div>
+<div class="rows en-rows">
+<p>A narrative review linking antigen acquisition, T-cell priming in cardiac-draining lymph nodes and peptide-MHC recognition in injured myocardium, integrated with TCR repertoire studies and a spatial framework of infarct core, border zone and remote myocardium.</p>
+<p class="why-en">Its sharpest point is a caution we can reuse directly: clonal expansion alone does not establish antigen specificity.</p>
+</div>
+<a class="link" href="https://doi.org/10.1007/s11033-026-13173-z"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1007/s11033-026-13173-z</a>
+</article>
+<article class="card">
+<div class="num">02</div>
+<h3>系统性联合鞘内阿仑单抗治疗伴中枢受累的 T-PLL：TCR 克隆型 NGS 监测下持续 MRD 阴性</h3>
+<p class="t-en">Sustained MRD-Negative Complete Remission of T-PLL With CNS Involvement Following Treatment With Systemic and Intrathecal Alemtuzumab</p>
+<div class="meta"><span>EJHaem</span><span class="dot">/</span><span>2026-11-11</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>个案：T-PLL 伴脑膜受累，用鞘内阿仑单抗后桥接异基因造血干细胞移植；用二代测序追踪 TCR 克隆型做残留病监测，指导移植后干预，24 个月仍处持续分子学缓解。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>这是组库当 MRD 读数的落地版本——克隆型 NGS 不只测深度，还直接驱动了临床决策；病例虽小，但「监测指标 → 干预动作」的闭环值得照抄。</p></div></div>
+<div class="rows en-rows">
+<p>Case report: T-PLL with leptomeningeal involvement treated with intrathecal alemtuzumab followed by allo-HSCT, with TCR clonotype NGS used for residual-disease monitoring to guide post-transplant intervention; sustained molecular remission at 24 months.</p>
+<p class="why-en">A concrete instance of repertoire-as-MRD-readout, where clonotype tracking actually drives a clinical decision.</p>
+</div>
+<a class="link" href="https://doi.org/10.1002/jha2.70456"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1002/jha2.70456</a>
+</article>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 11-11 ~ 11-14，但 11-11 ~ 11-13 的绝大部分昨天已报过，今天真正新增只有 2 条期刊论文；预印本 0 条（bioRxiv/medRxiv RSS 今日无新命中）。</li>
+<li>抓取情况：Europe PMC adjacent 查询首次 SSL 中断、重试后恢复；OpenAlex 仍 429 限流。</li>
+<li>扫描器今天补了两条保护：当天 digest 只增不减（源失败不会把已抓到的条目冲掉）；未汇报条目跨天保留，下次仍会补发。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<details><summary>MHC-restricted antigen presentation and clonal T-cell immunity after myocardial infarction: mechanisms, evidence gaps, and therapeutic opportunities</summary><div class="src">Molecular biology reports · 2026-11-12 · 期刊 Journal</div>
+<div class="ab">Myocardial infarction (MI) alters the cardiac immune microenvironment through tissue injury, antigen release, and recruitment of innate and adaptive immune cells. Major histocompatibility complex (MHC)-restricted antigen presentation can connect these events to T-cell responses that influence repair or persistent inflammation. This narrative review examines antigen acquisition, initial T-cell priming in cardiac-draining lymph nodes, and subsequent recognition of peptide-MHC complexes within injured myocardium. We integrate these processes with T-cell receptor (TCR) repertoire studies and a spatial framework encompassing the infarct core, border zone, and remote myocardium. Direct experimental evidence for cardiac antigen-specific responses is distinguished from human repertoire associations, findings in other diseases, and proposed mechanisms. In particular, TCR clonal expansion alone does not establish cardiac antigen specificity, and cardiomyocyte antigen display should be separated from professional antigen-presenting cell function. We also consider vascular and lymphatic remodeling, macrophage heterogeneity, and the effects of sex and age. Therapeutic approaches are evaluated by intervention, model, measured outcome, and evidence context, with particular attention to the cardiac risks of immune checkpoint blockade. This framework identifies the experiments needed to connect</div>
+<div class="ab"><a href="https://doi.org/10.1007/s11033-026-13173-z">https://doi.org/10.1007/s11033-026-13173-z</a></div>
+</details>
+<details><summary>Sustained MRD-Negative Complete Remission of T-PLL With CNS Involvement Following Treatment With Systemic and Intrathecal Alemtuzumab</summary><div class="src">EJHaem · 2026-11-11 · 期刊 Journal</div>
+<div class="ab">T-cell prolymphocytic leukaemia (T-PLL) with central nervous system (CNS) involvement is uncommon and evidence guiding its treatment is limited. We describe the successful treatment of T-PLL with leptomeningeal involvement using intrathecal alemtuzumab followed by allogeneic haematopoietic stem cell transplantation. Residual disease monitoring of T-cell receptor clonotypes by next-generation sequencing was performed to assess treatment response and guide post-SCT intervention. At 24 months post-SCT, the patient remains in sustained molecular remission. This case adds to the limited literature supporting activity of intrathecal alemtuzumab in refractory CNS disease and highlights the utility of molecular monitoring following SCT. The authors have confirmed clinical trial registration is not needed for this submission.</div>
+<div class="ab"><a href="https://doi.org/10.1002/jha2.70456">https://doi.org/10.1002/jha2.70456</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-14 09:07 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>

@@ -1,0 +1,59 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 专栏 / Immune Repertoire Daily</title>
+<style>
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--accent:#8c2f39}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;
+ font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:72px 30px 96px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:40px;line-height:1.18;font-weight:400;margin:14px 0 0;letter-spacing:.005em}
+h1 .en{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+ margin-top:12px;font-family:Inter,system-ui,sans-serif}
+.sub{font-size:12.5px;color:var(--muted);margin-top:18px;padding:10px 0;border-top:1px solid var(--line);
+ border-bottom:1px solid var(--line);display:flex;gap:10px;flex-wrap:wrap}
+.search{margin:26px 0 6px;width:100%;padding:11px 14px;font-size:14px;color:var(--ink);
+ background:#fff;border:1px solid var(--line);border-radius:2px;outline:none;
+ font-family:Inter,system-ui,sans-serif}
+.search:focus{border-color:var(--accent)}
+.search::placeholder{color:#b3a99a}
+.row{display:grid;grid-template-columns:132px 1fr 24px;gap:18px;padding:24px 0;
+ border-bottom:1px solid var(--line);text-decoration:none;color:inherit}
+.row:hover .date{color:var(--accent)}
+.row:hover .go{transform:translateX(4px);color:var(--accent)}
+.date{font-size:15px;letter-spacing:.02em;color:var(--ink);font-variant-numeric:tabular-nums}
+.date .wd{display:block;font-size:10.5px;letter-spacing:.22em;color:#b3a99a;
+ font-family:Inter,system-ui,sans-serif;margin-top:3px;text-transform:uppercase}
+.head{font-size:17px;line-height:1.6;color:var(--ink2)}
+.meta{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#b3a99a;margin-top:7px;
+ font-family:Inter,system-ui,sans-serif}
+.picks{font-size:13px;color:var(--muted);margin-top:7px;line-height:1.75}
+.picks span{color:var(--accent);margin-right:6px}
+.go{font-size:15px;color:#d6cbbb;transition:transform .15s ease,color .15s ease;align-self:start;padding-top:3px}
+.empty{font-size:14px;color:var(--muted);padding:40px 0}
+footer{margin-top:56px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;
+ line-height:1.9;font-family:Inter,system-ui,sans-serif;letter-spacing:.04em}
+footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)}
+@media (max-width:640px){
+ .wrap{padding:36px 18px 64px}
+ h1{font-size:28px}
+ .row{grid-template-columns:1fr;gap:6px}
+ .go{display:none}
+}
+</style></head><body><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">A running archive of TCR / BCR repertoire literature</span></h1>
+<div class="sub"><span>共 2 期</span><span>/</span><span>15 条文献</span><span>/</span><span>更新至 2026-11-14</span></div>
+<input class="search" id="q" placeholder="筛选：标题、日期、期刊… / filter">
+<div id="list"><a class="row" href="./2026-11-14.html"><div class="date">2026-11-14<span class="wd">周六</span></div><div class="body"><div class="head">窗口很薄（真正新增只有 1 天），但两条都直指同一件事：克隆型该怎么读才不算过度解读。 / A thin window, but both items address one question: how far can a clonotype be read before over-interpretation.</div><div class="meta">期刊 2 · 预印本 0 · 精选 2</div><div class="picks"><span>·</span>心肌梗死后 MHC 限制性抗原提呈与克隆性 T 细胞免疫：机制、证据缺口与治疗机会<br><span>·</span>系统性联合鞘内阿仑单抗治疗伴中枢受累的 T-PLL：TCR 克隆型 NGS 监测下持续 MRD 阴性<br></div></div><div class="go">→</div></a><a class="row" href="./2026-11-13.html"><div class="date">2026-11-13<span class="wd">周五</span></div><div class="body"><div class="head">今天最值钱的一条不是组库本身，而是把 V(D)J 克隆性搬到原位：在组织切片/液基样本上直接用成像读出浆细胞克隆，正好卡在我们的样本形态上。 / The most valuable item today is not repertoire itself but moving V(D)J clonality in situ: imaging reads plasma-cell clones directly in tissue sections — exactly our sample format.</div><div class="meta">期刊 8 · 预印本 5 · 精选 3</div><div class="picks"><span>·</span>用成像式单细胞转录组在组织原位刻画浆细胞克隆性<br><span>·</span>TCR 序列本身塑造 CD8⁺ T 细胞的分化偏向与克隆扩增<br><span>·</span>HLA 约束的个体化 TCR 指标预测加强针后症状性感染<br></div></div><div class="go">→</div></a></div>
+<footer>数据源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex<br>
+生成管线 Pipeline：<a href="https://github.com/liuji70520/repertoire-digest">repertoire-digest</a> ·
+每日 00:00 扫描，09:00 生成 · 单文件 HTML，可直接分享<br>
+Build 2026-11-14 17:06 (UTC+8)</footer></div>
+<script>
+const q=document.getElementById('q'),list=document.getElementById('list');
+q&&q.addEventListener('input',()=>{const v=q.value.trim().toLowerCase();
+ document.querySelectorAll('#list .row').forEach(r=>{
+  r.style.display=(!v||r.textContent.toLowerCase().includes(v))?'':'none';});});
+</script></body></html>
