@@ -1,0 +1,129 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-17 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-17</span><span class="dot">/</span><span>窗口 2026-11-14 – 2026-11-17</span><span class="dot">/</span><span>期刊 1 · 预印本 1</span><span class="dot">/</span><span>Journals 1 · Preprints 1</span></div>
+<p class="lead">今天两条都在讲“克隆结构”怎么读：一条把 TRG/TRD 组库测到组织分区，一条把生发中心里的 T 细胞克隆扩增讲成受调控过程。 / Two takes on clonal structure: compartment-resolved gamma-delta repertoire, and GC clonal expansion as a regulated process.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>猕猴 Vγ4⁺ γδ T 细胞：IFN-γ 与 IL-22 双效应表型，在慢性 SIV 感染与腹泻病中被扰乱</h3>
+<p class="t-en">Macaque Vγ4+ γδ T cells exhibit distinct IFN-γ and IL-22 effector profiles that are dysregulated during chronic SIV infection and diarrheal disease</p>
+<div class="meta"><span>bioRxiv</span><span class="dot">/</span><span>2026-11-16</span><span class="dot">/</span><span class="chip chip-p">预印本 Preprint</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>对健康、腹泻与 SIV 感染猕猴的结肠、肠系膜淋巴结、血、脾做 TRG/TRD 组库测序，发现克隆结构呈明显组织分区、结肠富集 TRGV3；流式与高维聚类把循环与结肠 Vγ4⁺ 细胞定为 Vδ1⁺、效应记忆、T-bet 主导的终末分化谱系，受刺激后同时产 Th1/Th17 类细胞因子。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>把“组库测序 + 组织分区”用在 γδ 上，说明克隆结构能反过来定义亚群身份；我们做黏膜/体液类液基样本时，判断 γδ 克隆来源与功能状态可照这个框架。</p></div></div>
+<div class="rows en-rows">
+<p>TRG/TRD repertoire sequencing across colon, mesenteric lymph node, blood and spleen in healthy, diarrheal and SIV-infected macaques showed compartment-specific clonal architecture with colonic enrichment of TRGV3; Vγ4+Vδ1+ cells were effector-memory, T-bet-dominant and dual Th1/Th17 cytokine producers.</p>
+<p class="why-en">Shows repertoire structure can define a gamma-delta subset&#x27;s identity and tissue origin — a usable frame for our mucosal/liquid samples.</p>
+</div>
+<a class="link" href="https://www.biorxiv.org/content/10.64898/2026.11.13.766599v1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://www.biorxiv.org/content/10.64898/2026.11.13.766599v1</a>
+</article>
+<article class="card">
+<div class="num">02</div>
+<h3>生发中心反应中的 T 细胞克隆性与 TCR 组库动态：调控机制与治疗机会综述</h3>
+<p class="t-en">T-cell clonality and TCR repertoire dynamics during germinal center responses: A comprehensive review of regulatory mechanisms and therapeutic opportunities</p>
+<div class="meta"><span>International Reviews of Immunology</span><span class="dot">/</span><span>2026-11-16</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 2.9</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q3</span><span class="chip chip-cas" title="中科院分区（第三方数据快照）">中科院 4区</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>综述生发中心周边区域特定 TCR 克隆型的扩增与维持：整合免疫组化、流式、单细胞 RNA 测序、多光子成像与 CRISPR 证据，主张携带特定克隆型的 T 细胞扩增是由 Tfh–B 细胞“ cognate 互作”驱动的受调控过程。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>把“克隆扩增”从相关现象提升为因果链条（Tfh–B 互作 → 克隆选择性扩增），正好补上我们解读扩增克隆时缺的那一环；写引言/讨论可直接引用。</p></div></div>
+<div class="rows en-rows">
+<p>Reviews how defined TCR clonotypes expand and persist in the germinal-center perifollicular region, integrating IHC, flow, scRNA-seq, multiphoton imaging and CRISPR evidence to argue clonal expansion is a regulated, Tfh–B cognate interaction-driven process.</p>
+<p class="why-en">Turns clonal expansion from a correlate into a causal, regulatable step — exactly the missing link when we interpret expanded clones.</p>
+</div>
+<a class="link" href="https://doi.org/10.1080/08830185.2026.2759954"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1080/08830185.2026.2759954</a>
+</article>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-14 ~ 11-17，新增仅 2 条（1 预印本 + 1 综述）；周末过后首个工作日，量仍然偏少。</li>
+<li>OpenAlex 今日返回 403（此前是 429），引用数没取到；IF 与分区走本地表，不受影响。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<details><summary>T-cell clonality and TCR repertoire dynamics during germinal center responses: A comprehensive review of regulatory mechanisms and therapeutic opportunities</summary><div class="src">International reviews of immunology · 2026-11-16 · 期刊 Journal · IF 2.9 · JCR Q3 · 中科院 4区</div>
+<div class="ab">T-cell receptors (TCRs) are pivotal for antigen recognition within germinal centers (GCs), which are essential for B-cell maturation and high-affinity antibody production. Although the role played by T follicular helper (Tfh) cells in supporting B cells is established, the mechanisms driving the expansion and maintenance of distinct T-cell clonotypes in the GC perifollicular region remain poorly understood. This review aims to synthesize current knowledge on the differentiation, migration, and clonal expansion of T cells within GCs, with emphasis on Tfh-B-cell interactions. Findings from immunohistochemistry, flow cytometry, single-cell RNA sequencing, multiphoton microscopy, and CRISPR/Cas9-based approaches indicate that clonal expansion of T cells carrying defined TCR clonotypes is a regulated process driven by cognate Tfh-B-cell interactions. These interactions promote both B-cell affinity maturation and the concomitant selection and clonal expansion of T cells. The reviewed studies reveal that the TCR repertoire within the GC perifollicular region is refined over time, contributing to the development of long-lived memory and effector cells. The collective results underscore a dynamic reciprocity where T cells shape the antibody response while themselves undergoing antigen-driven selection. Key challenges include clarifying TCR signaling networks, improving in vivo analysis </div>
+<div class="ab"><a href="https://doi.org/10.1080/08830185.2026.2759954">https://doi.org/10.1080/08830185.2026.2759954</a></div>
+</details>
+<details><summary>Macaque Vγ4+ γδ T cells exhibit distinct IFN-γ and IL-22 effector profiles that are dysregulated during chronic SIV infection and diarrheal disease</summary><div class="src">bioRxiv (immunology) · 2026-11-16 · 预印本 Preprint</div>
+<div class="ab">V{gamma}4+ {gamma}{delta} T cells contribute to colonic homeostasis in humans, but their biology in nonhuman primates remains poorly defined. Here, we characterized V{gamma}4+ {gamma}{delta} T cells in blood and intestinal tissues of healthy, diarrhea-inflicted, and SIV-infected rhesus macaques. TRG/TRD repertoire sequencing across colon, mesenteric lymph node, blood, and spleen revealed compartment-specific clonal architecture and colonic enrichment of TRGV3. Flow cytometric profiling revealed circulating and colonic V{gamma}4+ T cells were predominantly V{delta}1+, exhibited an effector memory phenotype, and displayed T-bet-dominant transcriptional profiles. High-dimensional clustering confirmed V{gamma}4+V{delta}1+ T cells as a distinct terminally differentiated lineage. Functionally, stimulated V{gamma}4+ T cells exhibited robust Th1/Th17 cytokine production, supporting dual inflammatory and barrier-protective roles. Campylobacter-associated diarrhea was characterized by mucosal expansion of central memory V{gamma}4+ T cells and altered cytokine responses. In contrast, ART-suppressed chronic SIV infection was associated with colonic enrichment of naive-like V{gamma}4+ T cells and increased ROR{gamma}t expression, alongside profound systemic loss of cytokine production but relative preservation of mucosal Th17-type responses. Both conditions exhibited a convergent loss of sy</div>
+<div class="ab"><a href="https://www.biorxiv.org/content/10.64898/2026.11.13.766599v1">https://www.biorxiv.org/content/10.64898/2026.11.13.766599v1</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-17 09:01 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
