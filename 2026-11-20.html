@@ -1,0 +1,113 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-20 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-20</span><span class="dot">/</span><span>窗口 2026-11-17 – 2026-11-20</span><span class="dot">/</span><span>期刊 1 · 预印本 0</span><span class="dot">/</span><span>Journals 1 · Preprints 0</span></div>
+<p class="lead">窗口里只有 1 条，但方向有意思：naive T 细胞池不是“存着不动”，而是被 TIA1/TIAL1 主动摁住——组库多样性的底盘是这群细胞的静息。 / Only one hit today, but a pointed one: the naive pool is actively held quiescent by TIA1/TIAL1 — repertoire diversity rests on keeping those cells still.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>TIA1 与 TIAL1 用转录后调控把 T 细胞摁在静息态，维持 naive 组库的底盘</h3>
+<p class="t-en">Posttranscriptional regulation by TIA1 and TIAL1 controls the transcriptional program enforcing T cell quiescence</p>
+<div class="meta"><span>Science Advances</span><span class="dot">/</span><span>2026-11-18</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 12.5</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q1</span><span class="chip chip-cas" title="中科院分区（第三方数据快照）">中科院 1区</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>把两个 RNA 结合蛋白 TIA1 与 TIAL1 认定为 CD4/CD8 T 细胞静息的促进因子：双缺失的 T 细胞在没有同源抗原的情况下就提前活化、耗竭、死亡；机制上它们促进 Foxp1、LEF1、TCF1 这些静息相关转录因子的 mRNA 翻译，从而压住稳态增殖与活化。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>我们平时看的是“组库有多宽”，这篇看的是“宽度靠什么维持”——naive 细胞一旦提前活化耗竭，组库多样性就在没有抗原刺激的情况下自己塌掉。如果后续要解释某个样本 naive  compartment 偏小、或克隆型多样性偏低，这是一条可查的上游机制（转录后层面，不是克隆选择层面）；也提示 naive 池的“静”是主动过程，做轨迹/拟时序时别把它当成默认的静息终点。</p></div></div>
+<div class="rows en-rows">
+<p>Identifies the RNA-binding proteins TIA1 and TIAL1 as promoters of CD4 and CD8 T cell quiescence: double-deficient T cells become prematurely activated, exhausted and die without cognate antigen, because these proteins drive mRNA translation of quiescence-associated transcription factors Foxp1, LEF1 and TCF1 that restrain homeostatic proliferation and activation.</p>
+<p class="why-en">We usually ask how broad a repertoire is; this asks what keeps it broad. Loss of naive-cell quiescence collapses diversity without antigenic pressure, offering an upstream, posttranscriptional explanation to check when a naive compartment or clonal diversity looks unexpectedly small.</p>
+</div>
+<a class="link" href="https://doi.org/10.1126/sciadv.aeh4461"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1126/sciadv.aeh4461</a>
+</article>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-17 ~ 11-20，新增 1 条（期刊）。今日无预印本入档。</li>
+<li>OpenAlex 仍 403；Europe PMC 与 RSS 正常，IF/分区走本地表。</li>
+<li>今天没有直接的组库测序类文献，这条属“naive 池维持”的上游机制，按相关度收进精选并注明。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<details><summary>Posttranscriptional regulation by TIA1 and TIAL1 controls the transcriptional program enforcing T cell quiescence</summary><div class="src">Science advances · 2026-11-18 · 期刊 Journal · IF 12.5 · JCR Q1 · 中科院 1区</div>
+<div class="ab">Immune protection against infections relies on long-term maintenance of a highly diversified naïve T cell repertoire. Transcription factors cooperate to enforce T cell metabolic quiescence and maintenance. However, less is known about the posttranscriptional networks that preserve naïve T cells. Here, we describe the RNA binding proteins T cell antigen 1 (TIA1) and TIA-like 1 (TIAL1) as key promoters of CD4 and CD8 T cell quiescence. T cells deficient in TIA1 and TIAL1 undergo premature T cell activation, exhaustion, and death in the absence of cognate antigens. Mechanistically, TIA1 and TIAL1 promote the messenger RNA translation of quiescence-associated transcription factors such as forkhead box P1, lymphoid enhancer factor 1, and T cell factor 1 to restrain homeostatic T cell proliferation and activation. In summary, our study highlights a previously unrecognized dependency on posttranscriptional gene regulation by TIA1 and TIAL1 for implementing the quiescent transcriptional programs for long survival of T cells.</div>
+<div class="ab"><a href="https://doi.org/10.1126/sciadv.aeh4461">https://doi.org/10.1126/sciadv.aeh4461</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-20 09:02 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
