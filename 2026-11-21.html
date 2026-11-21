@@ -1,0 +1,140 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-21 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-21</span><span class="dot">/</span><span>窗口 2026-11-18 – 2026-11-21</span><span class="dot">/</span><span>期刊 1 · 预印本 2</span><span class="dot">/</span><span>Journals 1 · Preprints 2</span></div>
+<p class="lead">今日 3 条：TCR–HLA 限制性可以只从序列预测、长读长一次做完 IGHV 全长与突变定量、免疫治疗中蜂毒特异 T 细胞的组库重塑。 / Three items: sequence-only prediction of TCR–HLA restriction, one-pass long-read IGHV profiling, and repertoire remodelling of venom-specific T cells under immunotherapy.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>TRIOPS：不依赖肽段的深度学习从 TCR 序列预测 HLA 限制性，并在肿瘤中捕捉偏位等位基因的 HLA 丢失</h3>
+<p class="t-en">Peptide-independent deep learning with TRIOPS predicts TCR–HLA restriction and recovers locus-biased HLA loss in tumors</p>
+<div class="meta"><span>Research Square</span><span class="dot">/</span><span>2026-11-19</span><span class="dot">/</span><span class="chip chip-p">预印本 Preprint</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>用双分支卷积模型、交叉反应感知采样训练，仅凭氨基酸序列预测 TCR–HLA 限制性：留出 TCRαβ 对 AUC 0.97、训练中未见的 HLA 等位基因 0.92、未见过的 TCR 0.81。再把 8,906 例 TCGA 肿瘤（23 种癌型）的克隆型指派到最可能的限制性等位基因，发现在 HLA-A/B 杂合对里 engagement 系统性偏向低表达的那个等位基因（一致率 0.60 / 0.65，23/23 癌型）。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>克隆型表目前只能回答“扩增了多少”，回答不了“认什么”。这条把 HLA 限制性变成可从序列推断的属性，等于给组库加了第二维注释；在肿瘤里还能反过来当 HLA 丢失的读数，正好补上我们做 TCR 克隆分析缺的那一半。</p></div></div>
+<div class="rows en-rows">
+<p>A dual-branch convolutional model trained with cross-reactivity-aware sampling predicts TCR–HLA restriction from amino acid sequence alone (AUC 0.97 on held-out TCRαβ pairs, 0.92 on HLA alleles withheld from training, 0.81 on unseen TCRs), then assigns clonotypes from 8,906 TCGA tumours across 23 cancer types to their likeliest restricting allele; engagement is systematically biased to the lower-expressed allele of HLA-A/B heterozygotes (concordance 0.60 and 0.65, 23/23 cancers).</p>
+<p class="why-en">Clonotype tables answer how much a clone expanded, never what it recognises; this makes HLA restriction a sequence-inferable property, adding a second annotation axis and doubling as an HLA-loss readout in tumours.</p>
+</div>
+<a class="link" href="https://doi.org/10.21203/rs.3.rs-11143133/v1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.21203/rs.3.rs-11143133/v1</a>
+</article>
+<article class="card">
+<div class="num">02</div>
+<h3>长读长 nanopore 测序：CLL 的 IGHV 基因分析又快又准</h3>
+<p class="t-en">Long-read nanopore sequencing: A rapid and highly accurate approach for IGHV gene analysis in chronic lymphocytic leukaemia</p>
+<div class="meta"><span>British journal of haematology</span><span class="dot">/</span><span>2026-11-19</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 3.8</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q1</span><span class="chip chip-cas" title="中科院分区（第三方数据快照）">中科院 2区</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>60 例 CLL 外周血，EuroClonality 引物一步 PCR 加同步 barcode，12 个样本一个 run，MinION 上每样本过滤后仍有 20 万条以上 Q30 读长；直接读全长 IGHV-IGHD-IGHJ 重排，所有病例都检出优势克隆型（平均丰度 75%），基因使用与体细胞高频突变状态与 Illumina 结果高度一致，占比 &gt;5% 的次要重排也能稳定识别。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>全长重排和 SHM 定量本来要拆成两步，长读长一次做完，省掉片段拼接与位点推断；这套多重 barcode + 单步 PCR 的工程流程，是我们把配对组库搬到液基/微量样本上能直接借的模板（注意这里测的是 BCR，只借方法）。</p></div></div>
+<div class="rows en-rows">
+<p>Peripheral blood from 60 CLL patients was amplified in a single PCR step with EuroClonality-based primers plus simultaneous barcoding, multiplexing 12 samples per MinION run and yielding over 200,000 Q30 reads per sample; full-length IGHV-IGHD-IGHJ rearrangements gave a dominant productive clonotype in every case (mean abundance 75%), with gene usage and SHM status highly concordant with Illumina and stable detection of secondary rearrangements above 5%.</p>
+<p class="why-en">Long reads fold full-length rearrangement and SHM quantification into one pass; the multiplexed single-step barcoding workflow is a directly reusable template for paired repertoire work on liquid-based and low-input samples (BCR here — borrow the method only).</p>
+</div>
+<a class="link" href="https://doi.org/10.1111/bjh.70963"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1111/bjh.70963</a>
+</article>
+</section>
+<section class="sec"><h2>其他<span class="en">More</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<div class="item"><div class="zh">单细胞解析：蜂毒免疫治疗诱导的耐受伴随蜂毒特异 T 细胞重塑</div>
+<div class="en">Single-cell profiling reveals venom-specific T-cells associated with tolerance during immunotherapy</div>
+<div class="v">medRxiv<span class="dot">/</span><a href="https://doi.org/10.64898/2026.11.19.26368471">链接/Link</a></div>
+<div class="note">9 例黄蜂过敏者在免疫治疗前、7 天、6 个月采样，另加 5 名非过敏者，分选蜂毒特异 T 细胞做 scRNA-seq 与 TCR 组库：IL5⁺Th2 细胞与基线 Ves v 5 特异 IgE 相关，治疗中其增多与保护性 IgG4/IgE 比值相关；Tconv 出现耗竭标记、Treg 转为活化表型；TCR 组库高度多克隆并伴显著克隆扩增与可塑性。属过敏原特异 T 细胞，不是肿瘤或自身免疫场景。</div>
+</div>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-18 ~ 2026-11-21。首轮扫描只有 2 条且有抓取告警（arXiv 429、OpenAlex 403），按规则重跑 scan.py --days 4 后补到 3 条（含 11-20 的 medRxiv 新条目）。</li>
+<li>OpenAlex 仍 403，引用数取不到；IF/分区走本地表，仅期刊条目标 IF，预印本不标。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">3</span></h2><div class="sec-rule"></div>
+<details><summary>Long-read nanopore sequencing: A rapid and highly accurate approach for IGHV gene analysis in chronic lymphocytic leukaemia</summary><div class="src">British journal of haematology · 2026-11-19 · 期刊 Journal · IF 3.8 · JCR Q1 · 中科院 2区</div>
+<div class="ab">The somatic hypermutation (SHM) status of the immunoglobulin heavy variable (IGHV) gene is a key prognostic and predictive biomarker in chronic lymphocytic leukaemia (CLL). Current methods, including Sanger sequencing and short-read next-generation sequencing, are accurate but have limitations in scalability and turnaround time. Here, we present an integrated workflow for multiplexed long-read nanopore sequencing of full-length IGHV-IGHD-IGHJ rearrangements, leveraging recent advances in sequencing chemistry and base calling. Peripheral blood samples from 60 patients with CLL, representing diverse IGHV subgroups and SHM levels, were analysed. Single-step polymerase chain reaction (PCR) amplification with EuroClonality-based primers and simultaneous barcoding enabled multiplexing of 12 samples per run. Sequencing on the MinION platform generated over 200 000 high-quality (≥Q30) reads per sample after quality filtering. A dominant productive clonotype was identified in all cases (mean abundance 75%). Comparative analysis demonstrated high concordance with Illumina-based results for IGHV-IGHD-IGHJ gene usage and SHM status. Secondary rearrangements with a frequency of &gt;5% were consistently detected across platforms. The workflow enabled a turnaround time below 24 h at an estimated cost of approximately €70 per sample. In summary, these findings establish long-read sequencing as a </div>
+<div class="ab"><a href="https://doi.org/10.1111/bjh.70963">https://doi.org/10.1111/bjh.70963</a></div>
+</details>
+<details><summary>Peptide-independent deep learning with TRIOPS predicts TCR–HLA restriction and recovers locus-biased HLA loss in tumors</summary><div class="src">Research Square · 2026-11-19 · 预印本 Preprint</div>
+<div class="ab">Abstract T cell receptor (TCR) antigen recognition is MHC-restricted, yet the restricting HLA allele is unknown for nearly all sequenced receptors. We present TRIOPS, a dual-branch convolutional model that predicts TCR–HLA restriction from amino acid sequence alone, trained with cross-reactivity-aware sampling. TRIOPS reaches an AUC of 0.97 on held-out TCRαβ pairs, 0.92 on HLA alleles withheld from training, and 0.81 on unseen TCRs. We tested whether predicted engagement tracks allele-specific HLA loss in 8,906 TCGA tumors across 23 cancer types, assigning each clonotype to its likeliest restricting allele within the corresponding tumor genotype. At HLA-A and HLA-B, engagement was higher at the lower-expressed allele of each heterozygous pair (concordance 0.60 and 0.65; 23/23 cancers). TRIOPS resolves this locus-dependent pattern from receptor sequences and HLA genotypes alone, establishing HLA-restricted TCR engagement as a relevant measurable feature of the T cell receptor repertoire.</div>
+<div class="ab"><a href="https://doi.org/10.21203/rs.3.rs-11143133/v1">https://doi.org/10.21203/rs.3.rs-11143133/v1</a></div>
+</details>
+<details><summary>Single-cell profiling reveals venom-specific T-cells associated with tolerance during immunotherapy</summary><div class="src">medRxiv · 2026-11-20 · 预印本 Preprint</div>
+<div class="ab">Background: Venom immunotherapy (VIT) is well established, but the dynamics of the rare venom-specific T cells during treatment need to be investigated. Defining these responses may identify biomarkers and pathways associated with treatment-induced tolerance. Methods: We sampled nine wasp-allergic individuals before and 7 days and 6 months after initiation of VIT, and 5 non-allergic donors at one time point. Single-cell RNA sequencing of isolated venom-specific T cells was used to characterise changes to immunophenotypes and immune receptor repertoires during VIT. Results: We unveiled a broad phenotype diversity among venom-specific T cells, which were altered during VIT. Most notably, IL5Th2 cells strongly correlated with Ves v 5-specific IgE levels at baseline, whereas their increase during VIT was associated with protective humoral immune responses, determined by the Ves v 5-specific IgG4/IgE ratio. Moreover, VIT induced exhaustion markers in Tconv, whereas Tregs acquired an activated phenotype, which was associated with increased specific IgG4 levels. T cell receptor (TCR) repertoire analysis revealed a highly polyclonal repertoire and substantial clonal expansion and plasticity in Tconv. By contrast, Treg clonotypes emerged during VIT, with no evidence of Tconv-to-Treg conversion. Conclusion: VIT induces early phenotypic changes in venom-specific T cells, which are associa</div>
+<div class="ab"><a href="https://www.medrxiv.org/content/10.64898/2026.11.19.26368471v1">https://www.medrxiv.org/content/10.64898/2026.11.19.26368471v1</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-21 09:02 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
