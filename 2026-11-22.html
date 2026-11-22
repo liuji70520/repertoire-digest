@@ -1,0 +1,112 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-22 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-22</span><span class="dot">/</span><span>窗口 2026-11-19 – 2026-11-22</span><span class="dot">/</span><span>期刊 1 · 预印本 0</span><span class="dot">/</span><span>Journals 1 · Preprints 0</span></div>
+<p class="lead">今日 1 条：把肾移植排斥从离散事件重构为时间闭环，免疫克隆追踪被列为关键读数。 / One item: rejection reframed as a time loop, with immune-clonal tracking as a key readout.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>移植物会“记住”：把肾移植排斥重新定义为一个时间闭环</h3>
+<p class="t-en">The allograft remembers: Defining the rejection time loop in kidney transplantation</p>
+<div class="meta"><span>Molecular immunology</span><span class="dot">/</span><span>2026-11-20</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 3.0</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q3</span><span class="chip chip-cas" title="中科院分区（第三方数据快照）">中科院 3区</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>综述指出排斥目前被记成“活检发现—治疗—缓解”的离散序列，但随访活检显示缓解常常不彻底：抗体介导排斥治疗后微血管炎症持续、T 细胞介导排斥在功能恢复后仍存在、残留排斥相关 T 细胞克隆型、分子层面排斥活性与移植物细胞转录异常都已被分别证实。作者用“rejection time loop”把这些串成纵向关系，并明确不主张残留损伤已被证明导致下一次排斥；真正的问题是：一次事件后剩余的生物学状态，是否改变后续排斥的表型与预后。连续活检、分子评估与免疫克隆追踪使这个问题变得可检验。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>对我们有用的不是肾移植本身，而是它把“组库追踪”当成打通时间闭环的关键读数：克隆型不是一张快照，而是能把多次事件连成连续状态的纵向标记。我们做 TCR 克隆分析时，常把克隆型当成某次采样里的扩增程度，这篇提示可以按“残留克隆是否随下一次事件再扩增”来组织多次采样的数据。</p></div></div>
+<div class="rows en-rows">
+<p>This review argues that rejection is recorded as discrete biopsy-defined episodes with treatment and apparent resolution, yet follow-up biopsies show incomplete resolution: persistent microvascular inflammation after treated antibody-mediated rejection, persistent T-cell-mediated rejection despite functional recovery, residual rejection-associated T-cell clonotypes, continued molecular rejection activity and persistent graft-cell transcriptional abnormalities. The authors group these under a &#x27;rejection time loop&#x27; describing their longitudinal relationship, explicitly without claiming residual injury is proven to cause the next episode, and pose the testable question of whether the biological state remaining after one episode modifies the phenotype or prognosis of subsequent rejection, now addressable with serial histology, molecular assessment and immune-clonal tracking.</p>
+<p class="why-en">The transferable point is treating clonal tracking as the readout that closes the loop over time: a clonotype is not a single snapshot but a longitudinal marker linking successive events, which reframes multi-sample TCR data around whether residual clones re-expand at the next event.</p>
+</div>
+<a class="link" href="https://doi.org/10.1016/j.molimm.2026.11.008"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.1016/j.molimm.2026.11.008</a>
+</article>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-19 ~ 2026-11-22。首轮仅 1 条且有抓取告警，按规则重跑 scan.py --days 4，仍只有这 1 条（arXiv 429、OpenAlex 403 持续）。</li>
+<li>周日增量偏少属常态；本条为综述，未生成新数据。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<details><summary>The allograft remembers: Defining the rejection time loop in kidney transplantation</summary><div class="src">Molecular immunology · 2026-11-20 · 期刊 Journal · IF 3.0 · JCR Q3 · 中科院 3区</div>
+<div class="ab">Kidney allograft rejection is commonly recorded as a sequence of biopsy-defined episodes followed by treatment and resolution. Follow-up biopsy studies, however, show that resolution is frequently incomplete. Persistent microvascular inflammation after treated antibody-mediated rejection, persistent T cell-mediated rejection despite apparent functional recovery, residual rejection-associated T-cell clonotypes, continued molecular rejection activity and persistent graft-cell transcriptional abnormalities have each been demonstrated. These observations are currently described separately as persistent rejection, incomplete resolution or residual molecular injury. We use rejection time loop to describe their longitudinal relationship: rejection is treated, but the post-treatment allograft may remain biologically different from its prerejection state when it is subsequently reassessed or develops further alloimmune injury. The term does not imply that residual injury has been proven to cause the next rejection episode. Rather, it identifies temporal continuity that is lost when rejection episodes are analysed independently or previous rejection is reduced to a binary covariate. The relevant research question is whether the biological state remaining after one episode modifies the phenotype or prognosis of subsequent rejection. Serial histology, molecular assessment and immune-clonal</div>
+<div class="ab"><a href="https://doi.org/10.1016/j.molimm.2026.11.008">https://doi.org/10.1016/j.molimm.2026.11.008</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-22 09:01 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
