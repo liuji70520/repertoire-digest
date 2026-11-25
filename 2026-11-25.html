@@ -1,0 +1,123 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-25 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-25</span><span class="dot">/</span><span>窗口 2026-11-22 – 2026-11-25</span><span class="dot">/</span><span>期刊 0 · 预印本 2</span><span class="dot">/</span><span>Journals 0 · Preprints 2</span></div>
+<p class="lead">今日 2 条：配对 TCR 的结构聚类能捞回序列方法漏掉的抗原特异性趋同；HLA-A*26:01 与椎体终板 Modic 改变相关，携带者记忆 CD8 扩增而 TCRβ 克隆性更低。 / Two items: structural clustering of paired TCRs recovers antigen-specific convergence that sequence methods miss, and HLA-A*26:01 links Modic changes to expanded memory CD8 cells with lower TCRβ clonality.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>配对 αβ TCR 组库的结构聚类：超越序列相似性找回抗原特异性趋同</h3>
+<p class="t-en">Structural clustering of paired αβ T-cell receptor repertoires recovers antigen-specific convergence beyond sequence similarity</p>
+<div class="meta"><span>bioRxiv (bioinformatics)</span><span class="dot">/</span><span>2026-11-24</span><span class="dot">/</span><span class="chip chip-p">预印本 Preprint</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>SPACE-TCR：把预测出的配对 αβ TCR 主链模型按 CDR 长度分层，在保守框架锚点上对齐，再按 CDR 区的 Cα RMSD 聚类。在独立整理的基准集（4,779 条配对 CD8 TCR、367 个表位）上，0.75 Å 阈值下 94.6% 的簇纯度 ≥0.9，与 ClusTCR 的 97.3% 接近，但聚到的唯一 CDR3β 数量是 ClusTCR 的两倍多（10.4% vs 4.7%），而其它“聚得更多”的方法纯度都明显更低；多特异性最低（5.4%）。22.7% 的高纯簇属于序列多样或序列无关，这类趋同家族基本被 CDR3β 相似性方法漏掉。背景噪声升高时优势更明显（89.2% 未注释噪声下纯度 30.4%，TCRMatch 为 15.0%）。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>我们定义克隆时其实默认“序列相似就是同一克隆”，这对趋同演化与交叉反应是系统性偏差——不同序列完全可以折叠出相似的 CDR 环。这条给了一个可复核的替代口径，并诚实地量化了代价：纯度略降、覆盖面翻倍。对我们最实际的用处是，以后要给“跨个体共享克隆型”或“同一抗原的趋同应答”下更硬的结论时，结构聚类能捞到序列方法结构性漏掉的那部分，而且它在噪声背景下的稳健性更接近真实数据。</p></div></div>
+<div class="rows en-rows">
+<p>SPACE-TCR stratifies predicted paired αβ TCR backbone models by CDR length, aligns them on conserved framework anchors and clusters by Cα RMSD across the CDRs. On an independent benchmark of 4,779 paired CD8 TCRs spanning 367 epitopes, 94.6% of clusters at the 0.75 Å threshold reached purity ≥0.9 (versus 97.3% for ClusTCR) while clustering more than twice as many unique CDR3β (10.4% versus 4.7%), with methods that clustered more doing so at markedly lower purity; polyspecificity was the lowest (5.4%), 22.7% of high-purity clusters were sequence-diverse or sequence-unrelated families rarely recovered by CDR3β-similarity methods, and it retained higher purity as unannotated background rose (30.4% at 89.2% noise versus 15.0% for TCRMatch).</p>
+<p class="why-en">Clonal definition implicitly equates sequence similarity with clonal identity, a systematic bias for convergent evolution and cross-reactivity, since different sequences can adopt similar CDR loop geometry; this offers a testable alternative and honestly quantifies the trade-off, which matters when we make claims about shared clones or convergent responses.</p>
+</div>
+<a class="link" href="https://www.biorxiv.org/content/10.64898/2026.11.22.768390v1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://www.biorxiv.org/content/10.64898/2026.11.22.768390v1</a>
+</article>
+</section>
+<section class="sec"><h2>其他<span class="en">More</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<div class="item"><div class="zh">HLA-A*26:01 与椎体终板 Modic 改变相关：宿主免疫遗传易感性连着系统性适应性免疫</div>
+<div class="en">HLA-A*26:01 is associated with vertebral endplate bone marrow lesions (Modic changes): host immunogenetic susceptibility linked to systemic adaptive immunity</div>
+<div class="v">Research Square<span class="dot">/</span><a href="https://doi.org/10.21203/rs.3.rs-11381094/v1">链接/Link</a></div>
+<div class="note">三个独立样本（n=324 / 657 / 1092）做 HLA 关联，并与祖先匹配的参考人群（n≈9,600–9,900）比较：HLA-A*26:01 是 Modic 改变的风险等位基因（OR 2.24，95% CI 1.18–4.24，FDR=0.040），相对参考人群富集（OR 1.95，1.13–2.95，FDR=0.009），效应随年龄变化（似然比检验 p=0.005）。携带者中 CD28⁺CD127⁺PD-1⁺CD39⁺NKG2D⁺ 记忆 CD8 扩增 1.27 倍（95% CI 1.01–1.60，p=0.044），而全血 TCRβ 克隆性反而更低（0.79 倍，0.67–0.94，p=0.007）。属宿主遗传—系统免疫的关联研究，组库只是其中一个读数，不足以推断因果。</div>
+</div>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-22 ~ 2026-11-25。今天 00:00 的扫描没有落盘，09:00 重跑 scan.py --days 4 生成，得 2 条（均为预印本）。</li>
+<li>arXiv 429、OpenAlex 403 均未恢复；预印本不标 IF。Modic 那条的摘要在 Europe PMC 里被截断，已用 REST 接口补全后再转述。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<details><summary>Structural clustering of paired αβ T-cell receptor repertoires recovers antigen-specific convergence beyond sequence similarity</summary><div class="src">bioRxiv (bioinformatics) · 2026-11-24 · 预印本 Preprint</div>
+<div class="ab">T-cell receptor (TCR) antigen recognition depends on the three-dimensional geometry of the paired {beta} complementarity-determining regions (CDRs), which primary sequence does not fully capture. Most repertoire-clustering methods group receptors by CDR3 motifs, sequence distance or V-J gene usage, and may miss receptors that differ in sequence but adopt similar loop conformations. We present SPACE-TCR (Structural Profiling of Alpha-Beta Clonotypes by Epitope), which stratifies predicted paired {beta} backbone models by CDR length, aligns them on conserved framework anchors and clusters them by C RMSD across the CDRs. On an independently curated benchmark of 4,779 paired CD8 TCRs spanning 367 epitopes, 94.6% of SPACE-TCR clusters at the focal 0.75 [A] threshold had purity [&amp;ge;] 0.9, close to ClusTCR (97.3%), while clustering more than twice as many unique CDR3{beta} (10.4% versus 4.7%); every method that clustered more did so at markedly lower purity. SPACE-TCR had the lowest polyspecificity (5.4%), and 22.7% of its high-purity clusters were sequence-diverse or sequence-unrelated, categories rarely recovered by the evaluated CDR3{beta}-similarity methods. With increasing unannotated repertoire background, it kept higher purity than the evaluated sequence-based methods across all available comparisons (30.4% at 89.2% noise, compared with 15.0% for TCRMatch). Paired structural c</div>
+<div class="ab"><a href="https://www.biorxiv.org/content/10.64898/2026.11.22.768390v1">https://www.biorxiv.org/content/10.64898/2026.11.22.768390v1</a></div>
+</details>
+<details><summary>HLA-A*26:01 is associated with vertebral endplate bone marrow lesions (Modic changes): host immunogenetic susceptibility linked to systemic adaptive immunity</summary><div class="src">Research Square · 2026-11-23 · 预印本 Preprint</div>
+<div class="ab">Abstract Purpose Modic changes (MC) are vertebral endplate bone marrow lesions associated with chronic low back pain. Mechanical and inflammatory triggers of MC are well studied, but host immunogenetic susceptibility remains poorly understood. Given the accumulation of T cells in MC lesions, we investigated the association of MC with human leukocyte antigen (HLA) alleles. Methods We studied HLA association with MC across three independent samples with MC scoring (n = 324, n = 657, and n = 1092). Associated alleles were compared with ancestry-matched population reference data (n = 9634–9936). In the first sample, we also profiled CD8 T cells by spectral flow cytometry (n = 191) and analysed the T cell receptor β (TCRβ) repertoire from whole-blood RNA sequencing (n = 317). Results HLA-A*26:01 was a risk allele for MC (odds ratio, OR 2.24, 95% confidence interval, CI 1.18–4.24, false discovery rate, FDR = 0.040) and was enriched in participants with MC against population reference data (OR 1.95, 95% CI 1.13–2.95, FDR = 0.009). HLA-A*26:01 had an age-dependent effect (likelihood ratio test p = 0.005). HLA-A*26:01 carriers with MC had a 1.27-fold expanded CD28⁺CD127⁺PD-1⁺CD39⁺NKG2D⁺ memory CD8 T cell population (95% CI 1.01–1.60, p = 0.044) and lower TCRβ clonality (0.79-fold, 95% CI 0.67–0.94, p = 0.007). Conclusion HLA-A*26:01 is associated with age-dependent MC susceptibility and</div>
+<div class="ab"><a href="https://doi.org/10.21203/rs.3.rs-11381094/v1">https://doi.org/10.21203/rs.3.rs-11381094/v1</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-25 09:02 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
