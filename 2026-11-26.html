@@ -1,0 +1,123 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-26 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-26</span><span class="dot">/</span><span>窗口 2026-11-23 – 2026-11-26</span><span class="dot">/</span><span>期刊 2 · 预印本 0</span><span class="dot">/</span><span>Journals 2 · Preprints 0</span></div>
+<p class="lead">今日 2 条：多发性骨髓瘤 IGH/IGK 克隆型检出——CD138 富集把 IGH 检出与主导克隆 reads 占比显著拉高，IGK 却没跟着改善；另有一条单抗六个 CDR 缺一即丧失结合与中和。 / Two items: CD138 enrichment lifts IGH clonotype detection and dominant-clone read fraction in myeloma while IGK does not improve, plus a mAb study where removing any single CDR abolishes binding and neutralization.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>多发性骨髓瘤 IGH/IGK 二代测序检测：CD138 阳性分选与未分选骨髓样本的比较</h3>
+<p class="t-en">IGH and IGK Next-Generation Sequencing Testing in Multiple Myeloma: A Comparison of CD138-Positive Sorted and Unsorted Bone Marrow Samples</p>
+<div class="meta"><span>Annals of laboratory medicine</span><span class="dot">/</span><span>2026-11-25</span><span class="dot">/</span><span class="chip chip-j">期刊 Journal</span><span class="chip chip-if" title="JCR 影响因子（第三方数据快照，仅供粗筛）">IF 3.9</span><span class="chip chip-q" title="JCR 分区（第三方数据快照）">JCR Q1</span><span class="chip chip-cas" title="中科院分区（第三方数据快照）">中科院 2区</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>比较 CD138 阳性浆细胞富集对 IGH/IGK 克隆型检出的影响：配对分样队列 N=20，另有分选常规化前后的非配对队列 N=60。配对队列里富集把 IGH 检出率从 65.0% 提到 85.0%、IGK 从 65.0% 提到 80.0%（数值上升，配对差异未达显著）；两等份都阳性的 15 例患者至少共享一个序列完全一致的克隆型；主导匹配克隆型的克隆 reads 占比 IGH 由中位 27.8% 升到 85.2%（P=0.0105），IGK 无显著变化（33.6%→36.9%，P=0.0942）。非配对队列检出差异 P=0.021（作者标注探索性）。结论写得克制：富集可能提高检出，但常规落地前需前瞻性配对验证。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>这是 MRD 流水线的第一环——诊断时必须先抓到患者特异的 Ig 克隆型，抓不到后面全是空转。这篇文章给的实操口径很具体：低肿瘤负荷下富集能把 IGH 检出拉到 85% 量级，并把主导克隆的 reads 占比从 27.8% 显著推到 85.2%；但 IGK 没跟着改善，说明轻链侧的失败不全由细胞量决定（引物覆盖、体细胞高突变都会掺进来），这一步不能只靠“多上细胞”解决。</p></div></div>
+<div class="rows en-rows">
+<p>CD138-positive plasma cell enrichment was evaluated for IGH/IGK NGS clonotype detection in a paired split-sample cohort (N=20) and an unpaired cohort (N=60) before and after routine enrichment: in the paired cohort IGH detection rose from 65.0% to 85.0% and IGK from 65.0% to 80.0% (numeric only, not significant), all 15 patients positive in both aliquots shared at least one exact sequence-matched clonotype, and the clonal read fraction of dominant matched clonotypes increased for IGH (median 27.8% to 85.2%, P=0.0105) but not IGK (33.6% to 36.9%, P=0.0942); the unpaired cohort difference was P=0.021 (exploratory), and the authors call for prospective paired validation.</p>
+<p class="why-en">Clonotype identification at diagnosis gates the whole MRD pipeline; enrichment helps heavy-chain detection and dominant-clone read fraction but not kappa, showing light-chain failures are not purely a cell-quantity problem.</p>
+</div>
+<a class="link" href="https://doi.org/10.3343/alm.2026.0451"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.3343/alm.2026.0451</a>
+</article>
+</section>
+<section class="sec"><h2>其他<span class="en">More</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<div class="item"><div class="zh">单抗 HN1D4-4D9 的 CDR1/2/3 均是小反刍兽疫病毒中和活性所必需</div>
+<div class="en">Complementarity-determining regions 1, 2, and 3 are essential for the neutralizing activity of the monoclonal antibody HN1D4-4D9 targeting the hemagglutinin-neuraminidase protein of the Peste des Petits Ruminants virus</div>
+<div class="v">International journal of biological macromolecules<span class="dot">/</span>IF 8.5 · JCR Q1 · 中科院 2区<span class="dot">/</span><a href="https://doi.org/10.1016/j.ijbiomac.2026.155418">链接/Link</a></div>
+<div class="note">用 HybSeq HT 测出该单抗的 VH/VL 序列并重组表达：六个 CDR 中任删一个即完全丧失抗原结合，说明序列完整性是识别前提；重组单抗仍保留体外中和活性，VH+VL 共表达可阻断病毒吸附。属单抗工程侧的 CDR 结构—功能验证，材料是杂交瘤而非组库测序，对我们是边缘相关。</div>
+</div>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-23 ~ 2026-11-26。今天 00:00 的扫描没有落盘，09:00 补跑 scan.py --days 4 两次，两次均为 2 条（期刊 2、预印本 0）。</li>
+<li>arXiv 429、OpenAlex 403 仍未恢复，不影响本地 IF/分区判断。原题里的上下标 HTML 标记已还原成正常字符。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<details><summary>Complementarity-determining regions 1, 2, and 3 are essential for the neutralizing activity of the monoclonal antibody HN&amp;lt;sup&amp;gt;1D4-4D9&amp;lt;/sup&amp;gt; targeting the hemagglutinin-neuraminidase protein of the Peste des Petits Ruminants virus</summary><div class="src">International journal of biological macromolecules · 2026-11-24 · 期刊 Journal · IF 8.5 · JCR Q1 · 中科院 2区</div>
+<div class="ab">Peste des Petits Ruminants virus (PPRV) causes a highly contagious and often fatal disease in small ruminants, leading to substantial economic losses. The hemagglutinin-neuraminidase (HN) glycoprotein, a critical surface antigen of PPRV, is the primary target for neutralizing antibodies. In a previous study, we characterized a novel monoclonal antibody (mAb), designated HN 1D4-4D9 , which neutralizes PPRV by blocking viral adsorption and interfering with receptor interactions. This study aimed to identify the complementarity-determining regions (CDRs) in the mAb HN 1D4-4D9 that are essential for its neutralizing activity. The variable heavy (V H ) and variable light (V L ) chain sequences of HN 1D4-4D9 were determined for the first time using HybSeq HT next-generation sequencing. The most abundant V H and V L sequences were synthesized and recombinantly expressed. Western blot analysis showed that deletion of any one of CDR1, CDR2, or CDR3 in either the heavy or light chain completely abolished antigen-antibody binding, indicating that the sequence integrity of all six CDRs is required for recognition of the antigen. Crucially, functional evaluation demonstrated that the synthetically recombinant HN 1D4-4D9 mAb retained potent neutralizing activity against early PPRV infection in vitro. Co-expression of the V H and V L domains of this recombinant mAb inhibited the early stages </div>
+<div class="ab"><a href="https://doi.org/10.1016/j.ijbiomac.2026.155418">https://doi.org/10.1016/j.ijbiomac.2026.155418</a></div>
+</details>
+<details><summary>&amp;lt;i&amp;gt;IGH&amp;lt;/i&amp;gt; and &amp;lt;i&amp;gt;IGK&amp;lt;/i&amp;gt; Next-Generation Sequencing Testing in Multiple Myeloma: A Comparison of CD138-Positive Sorted and Unsorted Bone Marrow Samples</summary><div class="src">Annals of laboratory medicine · 2026-11-25 · 期刊 Journal · IF 3.9 · JCR Q1 · 中科院 2区</div>
+<div class="ab">Identifying a patient-specific immunoglobulin (Ig) gene clonotype at diagnosis is a prerequisite for next-generation sequencing (NGS)-based measurable residual disease monitoring in multiple myeloma but may fail in low-tumor-burden samples. We evaluated the effect of CD138-positive plasma cell enrichment on Ig heavy chain ( IGH ) and Ig kappa ( IGK ) NGS clonotype detection in a paired split-sample cohort (N=20) and an unpaired cohort (N=60) tested before and after routine implementation of enrichment. In the paired cohort, enrichment numerically increased IGH detection from 65.0% to 85.0% and IGK detection from 65.0% to 80.0%. All 15 patients positive in both aliquots shared at least one exact sequence-matched clonotype. For dominant matched clonotypes, the clonal read fraction increased for IGH (median, 27.8% to 85.2%; P =0.0105) but not for IGK (33.6% to 36.9%; P =0.0942). In the unpaired cohort, overall detection in specimens with P =0.021; exploratory). Thus, CD138-positive plasma cell enrichment may increase NGS-based clonotype detection, although paired detection-rate differences were not statistically significant. Prospective paired validation, particularly in low-burden specimens, is warranted before routine clinical implementation.</div>
+<div class="ab"><a href="https://doi.org/10.3343/alm.2026.0451">https://doi.org/10.3343/alm.2026.0451</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-26 09:07 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
