@@ -1,0 +1,123 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>免疫组库日报 · 2026-11-27 / Immune Repertoire Daily</title>
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{margin:0 auto}
+.ic{width:14px;height:14px;display:inline-block;vertical-align:-2px}
+.kicker{font-weight:500}
+.dot{opacity:.55}
+.sec-rule{height:1px}
+.chip{font-weight:500}
+a{text-decoration:none}
+.notes ul{margin:0;padding-left:18px}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"+";margin-right:9px;font-weight:400}
+details[open] summary:before{content:"2"}
+@media (max-width:640px){
+  .wrap{padding:36px 18px 72px}
+  .row{grid-template-columns:1fr;gap:3px}
+  .row .lb .en{display:inline;margin-left:6px}
+}
+
+:root{--bg:#fdfcf8;--ink:#1f1b16;--ink2:#3f3830;--muted:#8a8175;--line:#e4dccd;--line2:#efe8dc;
+--accent:#8c2f39;--accent-soft:#f6f0e4;--warm:#8a5a20;--warm-soft:#f3e8d2}
+body{background:var(--bg);color:var(--ink);
+font-family:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC",serif}
+.wrap{max-width:820px;padding:72px 30px 110px}
+.kicker{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:38px;line-height:1.2;font-weight:400;letter-spacing:.01em;margin:14px 0 0}
+h1 .en{display:block;font-size:14px;font-family:Inter,"PingFang SC",sans-serif;letter-spacing:.06em;
+color:var(--muted);margin-top:10px;text-transform:uppercase}
+.sub{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;
+border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px 0}
+.lead{margin-top:28px;font-size:17px;line-height:1.85;color:var(--ink2);
+padding:4px 0 4px 20px;border-left:1px solid var(--accent);background:none}
+.sec{margin-top:56px}
+h2{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:400;letter-spacing:.22em;
+text-transform:uppercase;color:var(--ink);margin:0 0 2px;font-family:Inter,"PingFang SC",sans-serif}
+h2 .en{font-size:10px;letter-spacing:.24em;color:var(--muted)}
+h2 .n{font-size:10px;color:var(--muted);letter-spacing:.16em}
+.sec-rule{background:var(--ink);margin:8px 0 4px;height:2px}
+.sec-rule:after{content:"";display:block;height:1px;background:var(--line);margin-top:3px}
+.card{padding:26px 0 24px;margin:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
+.num{font-size:11px;letter-spacing:.2em;color:var(--accent);font-family:Inter,sans-serif}
+.card h3{font-size:22px;line-height:1.5;font-weight:400;letter-spacing:.005em;margin:8px 0 4px}
+.card .t-en{font-size:13px;line-height:1.6;color:var(--muted);font-style:italic;margin:0 0 12px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);
+font-family:Inter,sans-serif;letter-spacing:.04em;margin-bottom:16px}
+.chip{font-size:10px;letter-spacing:.12em;padding:1px 6px;border:1px solid var(--line);border-radius:0;text-transform:uppercase}
+.chip-j{color:var(--muted);background:none}
+.chip-p{color:var(--warm);background:var(--warm-soft);border-color:transparent}
+.chip-if{background:var(--warm-soft);color:#6b5f45;border-color:transparent}
+.chip-q{background:#eef2f6;color:#455a75;border-color:transparent}
+.chip-cas{background:#eef4ee;color:#3f6245;border-color:transparent}
+.row{display:grid;grid-template-columns:104px 1fr;gap:16px;padding:10px 0;border-top:1px solid var(--line2)}
+.row:first-child{border-top:0;padding-top:0}
+.row .lb{font-size:11px;color:var(--muted);font-family:Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.row .lb .en{display:block;font-size:9.5px;letter-spacing:.16em;color:#b3a99a;margin-top:2px}
+.row p{margin:0;font-size:15px;color:var(--ink2);line-height:1.8}
+a{color:var(--accent);border-bottom:1px solid rgba(140,47,57,.3)}
+a:hover{border-bottom-color:var(--accent)}
+.en-rows{margin-top:12px;padding-top:12px;border-top:1px solid var(--line2)}
+.en-rows p{margin:0 0 4px;font-size:12.5px;color:#9c9384;font-style:italic;line-height:1.75}
+.item{border-top:1px solid var(--line);padding:15px 0}
+.item .zh{font-size:15.5px;color:var(--ink)}
+.item .en{font-size:12.5px;color:var(--muted);font-style:italic;margin-top:2px}
+.item .v{font-size:11px;color:#b3a99a;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap;font-family:Inter,sans-serif;letter-spacing:.06em}
+.item .note{font-size:13.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+.notes{margin-top:16px;background:var(--accent-soft);border:0;border-left:2px solid var(--line);padding:18px 22px;border-radius:0}
+.notes li{font-size:12.5px;color:var(--muted);line-height:1.85}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{font-size:13.5px;color:var(--ink2)}
+details summary:before{color:#b3a99a}
+details .ab{font-size:12.5px;color:var(--muted);margin:10px 0 4px;line-height:1.8}
+details .src{font-size:11px;color:#b3a99a;margin-top:2px;font-family:Inter,sans-serif;letter-spacing:.06em}
+footer{margin-top:60px;padding-top:16px;border-top:2px solid var(--ink);font-size:11px;color:#b3a99a;line-height:1.9;font-family:Inter,sans-serif;letter-spacing:.04em}
+</style></head><body><div style="max-width:820px;margin:0 auto;padding:26px 30px 0;font-family:Inter,-apple-system,Segoe UI,PingFang SC,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b3a99a"><a href="./index.html" style="color:#8c2f39;text-decoration:none;border-bottom:1px solid rgba(140,47,57,.3)">&larr; 全部日报 All issues</a></div><div class="wrap">
+<div class="kicker">Immune Repertoire · Daily Digest</div>
+<h1>免疫组库日报<span class="en">Immune Repertoire Daily</span></h1>
+<div class="sub"><span>2026-11-27</span><span class="dot">/</span><span>窗口 2026-11-24 – 2026-11-27</span><span class="dot">/</span><span>期刊 1 · 预印本 1</span><span class="dot">/</span><span>Journals 1 · Preprints 1</span></div>
+<p class="lead">今日 2 条：TCR 组库训练出的多任务模型把“免疫健康”三分类做到外部验证 74%，并给出免疫年龄加速 &gt;4 年的信号；另一条是 Tfr 细胞经 IL-10 约束肠道 IgA 特异性与体细胞高突变。 / Two items: a multi-task TCR-repertoire model reaches 74% accuracy on external validation and flags &gt;4 years of immune-age acceleration, plus Tfr cells constraining gut IgA specificity and somatic hypermutation via IL-10.</p>
+<section class="sec"><h2>精选<span class="en">Selected</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<article class="card">
+<div class="num">01</div>
+<h3>TCR 组库刻画免疫健康连续谱，并在亚健康状态中揭示提前的免疫衰老</h3>
+<p class="t-en">TCR Repertoire Profiling Defines a Continuum of Immune Health and Reveals Premature Immunosenescence in Subclinical States</p>
+<div class="meta"><span>Research Square</span><span class="dot">/</span><span>2026-11-25</span><span class="dot">/</span><span class="chip chip-p">预印本 Preprint</span></div>
+<div class="rows"><div class="row"><div class="lb">做了什么<span class="en">What</span></div><p>用一个多任务深度学习框架同时做两件事：把免疫状态分成健康对照（HC）/亚健康（SHG）/过敏性鼻炎（AR）三类，以及预测“免疫年龄”。内部独立测试集上三分类准确率 90.28%、macro-F1 0.8977；健康人免疫年龄回归 R²=0.8244、MAE 3.39 岁。外部验证队列（新招 20 例 HC + 18 例 AR）里锁定模型正确分类 16/20 HC、12/18 AR，总体 73.68%（28/38），错判样本大多落到 SHG；外部 HC 免疫年龄 MAE 5.15 岁。亚健康与 AR 组的免疫年龄相对实际年龄平均加速 4 年以上。特征重要性上，健康状态分类主要由 Gini 系数（克隆集中度）和 V–J 配对偏倚驱动，CDR3 长度对两个任务都有贡献。</p></div>
+<div class="row"><div class="lb">为什么重要<span class="en">Why</span></div><p>值得看的是它诚实的那一半：内部 90%、外部 74%，错判集中在亚健康——说明“亚健康”这一档在真实队列里是个吸收池，边界最不稳，任何拿它下结论的说法都要留余量。对我们更实际的是特征重要性：撑起分类的不是 CDR3 序列本身，而是克隆集中度和 V–J 配对偏倚，这两类指标算起来便宜、也不需要先解决克隆定义问题。换句话说，做组库健康度评估时先算清集中度与 V-J 偏倚，可能比继续堆克隆型注释更划算。预印本，未经同行评议。</p></div></div>
+<div class="rows en-rows">
+<p>A multi-task deep learning framework over TCR repertoires jointly classifies immune states (healthy control, subhealth, allergic rhinitis) and predicts immunological age: 90.28% accuracy and macro-F1 0.8977 internally, immune-age R²=0.8244 with MAE 3.39 years; on external validation (20 HC, 18 AR) the locked model classified 16/20 HC and 12/18 AR (73.68% overall, 28/38) with errors mostly assigned to subhealth, external immune-age MAE 5.15 years, and both subhealth and AR showed immune-age acceleration above 4 years; Gini coefficient and V–J pairing bias dominated state classification while CDR3 length contributed to both tasks.</p>
+<p class="why-en">The honest half matters most, with 90% internal dropping to 74% external and errors pooling in subhealth, while the feature importance shows cheap clonality metrics (Gini, V–J bias) carry the signal rather than CDR3 sequence per se.</p>
+</div>
+<a class="link" href="https://doi.org/10.21203/rs.3.rs-11754354/v1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ic"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> https://doi.org/10.21203/rs.3.rs-11754354/v1</a>
+</article>
+</section>
+<section class="sec"><h2>其他<span class="en">More</span><span class="n">1</span></h2><div class="sec-rule"></div>
+<div class="item"><div class="zh">Tfr 细胞调控肠道抗共生菌 IgA 的特异性，并通过 IL-10 抑制 IgA 应答</div>
+<div class="en">TFR cells regulate the specificity of anti-commensal IgA in the gut and repress IgA responses via IL-10</div>
+<div class="v">Mucosal immunology<span class="dot">/</span>IF 7.6 · JCR Q1 · 中科院 2区<span class="dot">/</span><a href="https://doi.org/10.1016/j.mucimm.2026.100428">链接/Link</a></div>
+<div class="note">用 Tfr 缺陷小鼠（Bcl6^FC）：口服免疫后 IgA 包被的共生菌显著增多，IgA-seq 显示包被菌群多样性升高（未免疫组也如此），包被指数提示对多种菌结合更强；BCR 组库测序显示 Tfr 抑制 IgA 的体细胞高突变，与 Tfr 缺陷时抗共生 IgA 更多样一致。机制上只有 IL-10 充足的 Tfr 能在体内抑制共生菌导向 IgA，体外 IL-10 直接作用于 B 细胞、抑制 LPS 诱导的 IgA⁺ B 细胞分化。结论：Tfr 通过分泌 IL-10 约束 IgA 反应并塑造 IgA 覆盖的菌群。属 B 侧机制研究，组库只是读数之一。</div>
+</div>
+</section>
+<section class="sec"><h2>备注<span class="en">Notes</span></h2><div class="sec-rule"></div>
+<div class="notes"><ul>
+<li>窗口 2026-11-24 ~ 2026-11-27。今天 00:00 的扫描仍没有落盘，09:00 补跑 scan.py --days 4 生成，得 2 条（期刊 1、预印本 1）。</li>
+<li>OpenAlex 403 仍在；两条摘要都被 Europe PMC 截断，已用 REST 接口补全后再转述；第一条是预印本，未经同行评议。</li>
+</ul></div></section>
+<section class="sec"><h2>全部条目<span class="en">All entries</span><span class="n">2</span></h2><div class="sec-rule"></div>
+<details><summary>TCR Repertoire Profiling Defines a Continuum of Immune Health and Reveals Premature Immunosenescence in Subclinical States</summary><div class="src">Research Square · 2026-11-25 · 预印本 Preprint</div>
+<div class="ab">Abstract Background: The absence of scalable and biologically grounded biomarkers to objectively quantify immune status and aging has posed a major obstacle to early detection and personalized management of pre-disease conditions. Methods: To address this, we leverage the T-cell receptor (TCR) repertoire and introduce a multi-task deep learning framework that simultaneously discriminates immunological health states and predicts immunological age. Our model integrates a shared encoder with task-specific decoders, employing Transformer-based attention and residual connections to capture high-dimensional dependencies and nonlinear TCR patterns. Results: On the internal independent test set, the model achieved 90.28% accuracy and a macro-F1 of 0.8977 in classifying three immune conditions—healthy controls (HC), subhealth (SHG), and allergic rhinitis (AR). These internal results provide preliminary molecular evidence supporting subhealth as an immunologically transitional state between health and disease. For immunological age inference within healthy individuals, the model attained an R² of 0.8244 and an MAE of 3.3881 years. In an additional external validation cohort of 20 newly recruited HC and 18 AR patients, the locked model correctly classified 16/20 HC and 12/18 AR patients, with an overall accuracy of 73.68% (28/38); misclassifications were predominantly assigned to SHG. In </div>
+<div class="ab"><a href="https://doi.org/10.21203/rs.3.rs-11754354/v1">https://doi.org/10.21203/rs.3.rs-11754354/v1</a></div>
+</details>
+<details><summary>TFR cells regulate the specificity of anti-commensal IgA in the gut and repress IgA responses via IL-10</summary><div class="src">Mucosal immunology · 2026-11-25 · 期刊 Journal · IF 7.6 · JCR Q1 · 中科院 2区</div>
+<div class="ab">Immunoglobulin A (IgA) is the most predominant antibody (Ab) isotype at mucosal surfaces and is regulated by both T cell-dependent and T cell-independent mechanisms. In the T cell-dependent pathway, T follicular helper (TFH) cells direct B cells to generate high-affinity IgA responses. T follicular regulatory (TFR) cells also regulate Ab responses, but how these cells regulate microbiota-directed IgA at mucosal sites remains unclear. Here, a TFR-deficient mouse model (Bcl6FC) was utilized to clarify the role of TFR cells in gut IgA responses, before and after immune challenge. Following oral immunization, Bcl6FC mice showed significantly higher levels of IgA-coated commensal bacteria compared to control mice. At the same time, IgA-seq analysis of Bcl6FC mice revealed increased diversity of IgA-coated taxa, both in naïve and orally immunized mice compared to controls. IgA coating index analysis, a measure of IgA affinity, identified higher IgA binding to multiple select bacterial taxa in Bcl6FC mice compared to control mice. Additionally, sera from immunized Bcl6FC mice showed increased IgA binding to select bacteria species in vitro. B cell receptor repertoire sequencing revealed that TFR cells repress IgA somatic hypermutation, consistent with more diverse commensal-specific IgA responses in TFR-deficient mice. Mechanistically, IL-10-sufficient but not IL-10-deficient TFR cell</div>
+<div class="ab"><a href="https://doi.org/10.1016/j.mucimm.2026.100428">https://doi.org/10.1016/j.mucimm.2026.100428</a></div>
+</details>
+</section>
+<footer>来源 Sources：Europe PMC（MEDLINE + 预印本库）· bioRxiv / medRxiv RSS · arXiv q-bio · OpenAlex (best effort)<br>生成 Generated 2026-11-27 09:03 (UTC+8) · 扫描 lit-scan/scan.py · 渲染 lit-scan/render.py</footer>
+</div></body></html>
